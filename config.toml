@@ -27,8 +27,8 @@ showReadingTime = false
 
 [languages]
 [languages.en]
-title = "Hello Friend"
-subtitle = "A simple theme for Hugo"
+title = "Oussama Haff. Blog"
+subtitle = "Personal Mobile Tech Blog"
 keywords = ""
 copyright = ""
 menuMore = "Show more"
@@ -37,14 +37,14 @@ readMore = "Read more"
 readOtherPosts = "Read other posts"
 newerPosts = "Newer posts"
 olderPosts = "Older posts"
-minuteReadingTime = "min read"
+minuteReadingTime = "min ⏱"
 dateFormatSingle = "2006-01-02"
 dateFormatList = "2006-01-02"
 # leave empty to disable, enter display text to enable
 # lastModDisplay = ""
 
 [languages.en.params.logo]
-logoText = "Oussama Hafferssas's Blog"
+logoText = "Oussama Haff. / Mobile DevTech Blog"
 logoHomeLink = "/"
 # or
 #
