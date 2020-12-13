@@ -2,7 +2,7 @@
 title = "Migrating Android build scripts from Groovy to Kotlin DSL"
 date = "2018-12-08"  
 author = "Oussama Hafferssas"
-cover = "img/kotlin_groovy_dsl/kotlin_dsl.jpg"
+cover = "img/kotlin_groovy_dsl/kotlin_dsl.webp"
 description = "In this article I’ll be sharing with you the process I’ve followed to migrate Gradle build scripts from Groovy to Kotlin DSL in one of my Android side projects, and also my personal opinion on this process."
 +++
 
@@ -132,7 +132,7 @@ IntelliJ IDEA CE for Android)
 1. **The right (and the latest) IDE** — Make sure that you use one of
    these IDEs (I prefer IntelliJ IDEA CE for Android)
 
-{{< figure src="/img/kotlin_groovy_dsl/compat_table.jpeg" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/compat_table.webp" position="center"
 style="border-radius: 8px;" caption="IDE Compatibility (2018)"
 captionPosition="center" >}}
 
@@ -157,7 +157,7 @@ zipStorePath=wrapper/dists
    practically in every line of the script’s source code. Having Gradle
    syncing each time can cause you high blood pressure 🥲
 
-{{< figure src="/img/kotlin_groovy_dsl/disable_auto_synch.png" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/disable_auto_synch.webp" position="center"
 style="border-radius: 8px;"  
 caption="Disabling Gradle auto-import in IntelliJ’s preferences"
 captionPosition="center" >}}
@@ -241,7 +241,7 @@ Kotlin DSL by renaming them from `xx.gradle` to `xx.gradle.kts`
    `settings.gradle.kts` and re-syncing the project just after (Do this
    for all of your build settings files) Your IDE should show this :
 
-{{< figure src="/img/kotlin_groovy_dsl/kotlin_dsl_settings.jpeg" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/kotlin_dsl_settings.webp" position="center"
 style="border-radius: 8px;"  
 caption="IDE hints in Kotlin DSL 🙌"
 captionPosition="center" >}}
@@ -254,13 +254,13 @@ captionPosition="center" >}}
 2. Now let’s do the same thing for the top level `build.gradle` file and
    add the extension `.kts` — Try to spot the differences 🔍
 
-{{< figure src="/img/kotlin_groovy_dsl/groovy_build_classic.jpeg" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/groovy_build_classic.webp" position="center"
 style="border-radius: 8px;"  
 caption="IDE view of a standard Gradle Groovy root build script file before conversion"
 captionPosition="center" >}}
 
 
-{{< figure src="/img/kotlin_groovy_dsl/gradl_kotlin_dsl_build.jpeg" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/gradl_kotlin_dsl_build.webp" position="center"
 style="border-radius: 8px;"  
 caption="The IDE view of the script after converting it to Kotlin DSL"
 captionPosition="center" >}}
@@ -286,7 +286,7 @@ We still need to convert the last file which is in our case the app
 module’s build.gradle file. The screenshot bellow is what the IDE shows
 just after renaming the file to `build.gradle.kts`
 
-{{< figure src="/img/kotlin_groovy_dsl/end_with_errors_build_gradle_kts.png"
+{{< figure src="/img/kotlin_groovy_dsl/end_with_errors_build_gradle_kts.webp"
 position="center" style="border-radius: 8px;"  
 caption="IDE assistant with Kotlin DSL" captionPosition="center" >}}
 
@@ -317,7 +317,7 @@ In our case we have mainly three errors in the log :
 
 The result after applying these fixes will look like this..
 
-{{< figure src="/img/kotlin_groovy_dsl/end_without_errors_build_gradle_kts.jpeg" position="center"
+{{< figure src="/img/kotlin_groovy_dsl/end_without_errors_build_gradle_kts.webp" position="center"
 style="border-radius: 8px;"  
 caption="An app module build script file in Kotlin DSL that actually compiles 🎉"
 captionPosition="center" >}}
