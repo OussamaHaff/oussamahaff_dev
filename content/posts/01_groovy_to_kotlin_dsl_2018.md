@@ -106,9 +106,6 @@ dealing with build script files for Android :
 
 
 # Migration - Step By Step
-{{< figure src="/img/kotlin_groovy_dsl/east_gif.gif" position="center"
-style="border-radius: 8px;" caption="It will not be that easy !"
-captionPosition="center" >}}
 
 The migration from Groovy DSL scripts to Kotlin DSL is a like a battle,
 the more you’ve prepared yourself the more you increase your chances to
