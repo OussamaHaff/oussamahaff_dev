@@ -1,4 +1,5 @@
-+++ title = "Migrating Android build scripts from Groovy to Kotlin DSL"
++++
+title = "Migrating Android build scripts from Groovy to Kotlin DSL"
 date = "2018-12-08"  
 author = "Oussama Hafferssas"
 cover = "img/kotlin_groovy_dsl/kotlin_dsl.jpg"
