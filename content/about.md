@@ -6,14 +6,14 @@ date = "2020-12-12"
 
 ## About me
 
-- Android Apps Engineer (Certified Associate Android Developer
+- Android Engineer (Certified AAD for
   [Kotlin](https://www.credential.net/d889722c-1b2a-45cf-87b7-03361799973f)
   &
   [Java](https://www.credential.net/28ce7f3c-6252-4fc9-b1eb-16bc80ce38f9))
-- Passionate about software and mobile apps `Craftsmanship`
+- Passionate about the `Craftsmanship` of software and mobile apps 
 - Having background on image processing algorithms
 - Worked mainly on `FinTech` apps.
-- Loves all means of sharing knowledge (except illegal ones !)
+- Loves all means of sharing knowledge `except illegal ones !`
 
 ## Side Projects
 - Now contributing at
@@ -24,8 +24,4 @@ scenarios of Jetpack Compose.
 
 
 > **`Ethics-Driven Development`** is the best type of development !
-
-{{< rawhtml >}}
-
-{{< /rawhtml >}}
 
