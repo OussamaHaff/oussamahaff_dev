@@ -44,7 +44,7 @@ dateFormatList = "2006-01-02"
 # lastModDisplay = ""
 
 [languages.en.params.logo]
-logoText = "Oussama Haff. / Mobile DevTech Blog"
+logoText = "Oussama Haff. / DevTech Blog"
 logoHomeLink = "/"
 # or
 #
