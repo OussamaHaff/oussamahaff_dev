@@ -6,8 +6,12 @@ cover = "img/kotlin_groovy_dsl/kotlin_dsl.webp"
 description = "In this article I’ll be sharing with you the process I’ve followed to migrate Gradle build scripts from Groovy to Kotlin DSL in one of my Android side projects, and also my personal opinion on this process."
 +++
 
-*Originally published in
-[ProAndroidDev](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737).*
+[![AndroidWeekly](https://img.shields.io/badge/Android%20Weekly-%23339-brightgreen.svg?style=flat)](https://androidweekly.net/issues/issue-339)
+
+[![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Dec%2008,2018-brightgreen.svg?style=flat)](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
+
+[![oussamahaff.dev](https://img.shields.io/badge/OussamaHaff%2Edev-v0.1-orange.svg?style=flat)](https://github.com/hfrsoussama/oussamahaff_dev/releases/tag/v0.1)
+
 
 [TOC levels=1-3]: #
 
