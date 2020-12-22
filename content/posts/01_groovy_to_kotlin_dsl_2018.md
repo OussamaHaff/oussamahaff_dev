@@ -10,8 +10,6 @@ description = "In this article I’ll be sharing with you the process I’ve fol
 
 [![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Dec%2008,%202018-brightgreen.svg?style=flat)](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
 
-[![oussamahaff.dev](https://img.shields.io/badge/OussamaHaff%2Edev-v0.1-orange.svg?style=flat)](https://github.com/hfrsoussama/oussamahaff_dev/releases/tag/v0.1)
-
 [TOC levels=1-3]: #
 
 # Table of Contents
