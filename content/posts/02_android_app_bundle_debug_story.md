@@ -6,8 +6,10 @@ cover = "img/02_android_app_bundle_debug_story/cover.png"
 description = "In this article I will focus on the problem-solving mindset behind resolving a mysterious bug that we have faced when trying to publish our Android App using the new format App Bundle instead of APK for the first time"  
 +++
 
-*Originally published in
-[ProAndroidDev](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3).*
+[![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Jul%2027,%202019-brightgreen.svg?style=flat)](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3)
+
+[![oussamahaff.dev](https://img.shields.io/badge/OussamaHaff%2Edev-v0.1-orange.svg?style=flat)](https://github.com/hfrsoussama/oussamahaff_dev/releases/tag/v0.1)
+
 
 As Android developers, we tend to write about best practices, trending
 architectures, new libraries and so on, but we rarely find detailed
