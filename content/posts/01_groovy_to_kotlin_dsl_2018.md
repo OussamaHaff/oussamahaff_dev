@@ -10,6 +10,8 @@ description = "In this article I’ll be sharing with you the process I’ve fol
 
 [![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Dec%2008,%202018-blue.svg?style=flat)](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
 
+>*Blog post edit history can be found in the website's Github repository* [*here*](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/01_groovy_to_kotlin_dsl_2018.md).
+
 [TOC levels=1-3]: #
 
 # Table of Contents
