@@ -2,12 +2,13 @@
 title = "Hunting a bug — A True App Bundle Debugging Story"  
 date = "2019-07-27"  
 author = "Oussama Hafferssas"  
-cover = "img/02_android_app_bundle_debug_story/cover.png"  
+cover = "img/02_android_app_bundle_debug_story/cover.webp"  
 description = "In this article I will focus on the problem-solving mindset behind resolving a mysterious bug that we have faced when trying to publish our Android App using the new format App Bundle instead of APK for the first time"  
 +++
 
-[![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Jul%2027,%202019-brightgreen.svg?style=flat)](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3)
+[![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Jul%2027,%202019-blue.svg?style=flat)](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3)
 
+>*Blog post edit history can be found in the website's Github repository* [*here*](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/02_android_app_bundle_debug_story.md)
 
 As Android developers, we tend to write about best practices, trending
 architectures, new libraries and so on, but we rarely find detailed
@@ -146,7 +147,7 @@ downloaded the tool
 started by generating signed APKs using the command :
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/generate_signed_apk.png"
+src="/img/02_android_app_bundle_debug_story/generate_signed_apk.webp"
 position="center" style="border-radius: 8px;"  
 caption="Command written in the Terminal"  
 captionPosition="center" >}}
@@ -161,7 +162,7 @@ doubt, I tried to install the app from this .apks file on a connected
 device using this command :
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/install_generated_apk.png"
+src="/img/02_android_app_bundle_debug_story/install_generated_apk.webp"
 position="center" style="border-radius: 8px;"  
 caption="Command written in the Terminal"  
 captionPosition="center" >}}
@@ -206,7 +207,7 @@ When building the app, the Gradle build merges all manifest files into a
 single Android Manifest file which will be packaged in to the final APK.
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/manifest_merge.png"
+src="/img/02_android_app_bundle_debug_story/manifest_merge.webp"
 position="center" style="border-radius: 8px;"  
 caption=" [The process](https://developer.android.com/studio/build/manifest-merge#merge_priorities) to merge three manifest files, lowest priority (left) into highest priority (right)"  
 captionPosition="center" >}}
@@ -220,7 +221,7 @@ some clues. I have found 02 matches.
 * The first match —
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/manifest_merger_report.png"
+src="/img/02_android_app_bundle_debug_story/manifest_merger_report.webp"
 position="center" style="border-radius: 8px;"  
 caption="Part from the `manifest-merger-release-report.txt` file"  
 captionPosition="center" >}}
@@ -236,7 +237,7 @@ is an attribute called `tools:replace` having the value android:label,
 what does that mean ?
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/app_module_manifest_file.png"
+src="/img/02_android_app_bundle_debug_story/app_module_manifest_file.webp"
 position="center" style="border-radius: 8px;"  
 caption="The ***app*** module `AndroidManifest.xml` file"  
 captionPosition="center" >}}
@@ -256,7 +257,7 @@ from this first match unfortunately.
 * The second match —
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/manifest_merger_report_2.png"
+src="/img/02_android_app_bundle_debug_story/manifest_merger_report_2.webp"
 position="center" style="border-radius: 8px;"  
 caption="Part from the `manifest-merger-release-report.txt` file"  
 captionPosition="center" >}}
@@ -286,7 +287,7 @@ file. The good thing is that Analyzing APKs works fine with bundle
 files.
 
 {{< figure
-src="/img/02_android_app_bundle_debug_story/final_merged_manifest.png"
+src="/img/02_android_app_bundle_debug_story/final_merged_manifest.webp"
 position="center" style="border-radius: 8px;"  
 caption="APK Analyzer in Android Studio analyzing the app bundle file (.aab)"  
 captionPosition="center" >}}
