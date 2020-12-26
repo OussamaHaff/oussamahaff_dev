@@ -1,7 +1,7 @@
 ---
-name: Enhancement Suggestion
+name: Enhancement suggestion
 about: Suggest an improvement for an article or for the whole website
-title: "[ENHANCEMENT]"
+title: "[ENHANCEMENT] "
 labels: enhancement
 assignees: hfrsoussama
 
