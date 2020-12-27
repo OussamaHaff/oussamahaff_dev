@@ -1,7 +1,7 @@
 +++ title = "The blog's README"  
 date = "2020-12-26"  
 author = "Oussama Hafferssas"  
-cover ="/img/00_how_to_uses_website/cover_site_readme.svg"  
+cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
 description = "If it's the first time you visit my blog, you may find it a little different from other websites, therefore I'll try to make sure in this dedicated article that everything is clear and transparent for you."  
 +++
 
@@ -38,7 +38,7 @@ It's a static site, generated from markdown files. You can read about
 how it's made further in this article.
 
 
-{{< figure src="/img/00_how_to_uses_website/no_trackers_no_cookies.webp"
+{{< figure src="/img/00_the_blog_s_readme/no_trackers_no_cookies.webp"
 position="center"  
 style="border-radius: 8px;"  
 caption="Captured from *Brave* browser on strict privacy mode. No privacy tradeoffs !"  
@@ -57,7 +57,7 @@ You will be able to :
 - give a general feedback
 
 {{< figure
-src="/img/00_how_to_uses_website/github_issues_for_comments.webp"
+src="/img/00_the_blog_s_readme/github_issues_for_comments.webp"
 position="center" style="border-radius: 8px;"  
 caption="To avoid comments plugin that track you, I've made *Github* templates ready for you :)"  
 captionPosition="center" >}}
@@ -85,7 +85,7 @@ If you want to try the website locally, you need to :
 
 
 {{< image
-src="/img/00_how_to_uses_website/end_of_produce_readme.svg"
+src="/img/00_the_blog_s_readme/end_of_produce_readme.svg"
 position="left"  
 style="border-radius: 8px;" >}}
 
