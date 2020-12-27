@@ -1,3 +1,5 @@
+[https://oussamahaff.dev](https://oussamahaff.dev)
+
 [TOC levels=1-3]: #
 
 # Table of Contents
@@ -33,9 +35,12 @@ tradeoffs !" style="float: center; border-radius: 8px;" />
 
 
 # How to give feedback on an article ?
-In every article you will find a link to [***create an issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) on the
-blog's *Github* repository. Templates for different types of comments and
-feedbacks are **already filled** with basic information.
+Comments plugins hides generally cross-site tracker. As an alternative,
+you will find in every article a link to
+[***create a Github issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
+on the blog's *Github* repository. Templates for different types of
+comments and feedbacks are **already filled** for you with basic
+information.
 
 You will be able to :
 - ask a question
@@ -43,11 +48,11 @@ You will be able to :
 - alert the author about a deprecated content
 - give a general feedback
 
-{{< figure
-src="/img/00_the_blog_s_readme/github_issues_for_comments.webp"
-position="center" style="border-radius: 8px;"  
-caption="To avoid comments plugin that track you, I've made *Github* templates ready for you :)"  
-captionPosition="center" >}}
+<img
+src="static/img/00_the_blog_s_readme/github_issues_for_comments.webp"
+alt="To avoid comments plugin that track you, I've made *Github*
+templates ready for you :)"
+style="float: center; border-radius: 8px;" />
 
 # What tech stack has been used to build this blog ?
 For optimal speed and security, the blog is built using what's called the
@@ -70,9 +75,4 @@ If you want to try the website locally, you need to :
 - In most cases, *Hugo* will indicate that the site is available locally
   on your machine at `localhost:1313`
 
-
-{{< image
-src="/img/00_the_blog_s_readme/end_of_produce_readme.svg"
-position="left"  
-style="border-radius: 8px;" >}}
 

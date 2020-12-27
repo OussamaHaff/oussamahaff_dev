@@ -48,9 +48,12 @@ captionPosition="center" >}}
 
 
 # How to give feedback on an article ?
-In every article you will find a link to [***create an issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) on the
-blog's *Github* repository. Templates for different types of comments and
-feedbacks are **already filled** with basic information.
+Comments plugins hides generally cross-site tracker. As an alternative,
+you will find in every article a link to
+[***create a Github issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
+on the blog's *Github* repository. Templates for different types of
+comments and feedbacks are **already filled** for you with basic
+information.
 
 You will be able to :
 - ask a question
