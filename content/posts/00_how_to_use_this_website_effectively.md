@@ -1,4 +1,4 @@
-+++ title = "How to use this Blog effectively"  
++++ title = "The blog's README"  
 date = "2020-12-26"  
 author = "Oussama Hafferssas"  
 cover ="/img/00_how_to_uses_website/cover_site_readme.svg"  
@@ -19,31 +19,38 @@ description = "If it's the first time you visit my blog, you may find it a littl
 
 
 # What can I find in this Blog ?
-I'll be sharing my knowledge about
-- Mobile Apps engineering especially **Android**
-- Software craftsmanship
-- My own view on tech in general
+This is my personal blog, and I'll be sharing my knowledge about :
+- Mobile Apps engineering especially `Android`
+- Software `Craftsmanship`
+- My `own views` on tech in general
+- All articles are `reviewed` by `trusted` engineer(s) in the community.
+- All articles have a `transparent` modification history.
 
 # Does this website respect my privacy ?
-This blog
+This blog simply :
 - has `no ads`
 - has `no trackers`
 - has `no SEO scripts`
+- does `not use cookies`
 - does `not collect` / does `not store` / does `not share` any user data
 
-It's a static site, generated from markdown files found in the master
-branch of this
-[Github repository](https://github.com/hfrsoussama/oussamahaff_dev)
-using a static site generator
+It's a static site, generated from markdown files. You can read about
+how it's made further in this article.
+
+
+{{< figure src="/img/00_how_to_uses_website/no_trackers_no_cookies.webp"
+position="center"  
+style="border-radius: 8px;"  
+caption="Captured from *Brave* browser on strict privacy mode. No privacy tradeoffs !"  
+captionPosition="center" >}}
+
 
 # There is no way to comment on an article, what's the alternative ?
-In every article you will find a link to **create an issue** on the blog
-Github repository. Templates for different types of comments and
+In every article you will find a link to [***create an issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) on the
+blog's *Github* repository. Templates for different types of comments and
 feedbacks are **already filled** with basic information.
 
-Using this
-[link](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
-(found in every article) you can :
+You will be able to :
 - ask a question
 - suggest an improvement for an article or for the whole website
 - alert the author about a deprecated content
@@ -52,27 +59,33 @@ Using this
 {{< figure
 src="/img/00_how_to_uses_website/github_issues_for_comments.webp"
 position="center" style="border-radius: 8px;"  
-caption="To avoid comments plugin that track you, I've made Github templates ready for you :)"  
+caption="To avoid comments plugin that track you, I've made *Github* templates ready for you :)"  
 captionPosition="center" >}}
 
 # What is the tech stack used to build this blog ?
 For optimal speed and security, the blog is built what's called the
 [*JAM Stack*](https://jamstack.org)
 - Pages and articles are just markdown files
-- The actual website html pages are generated using
+- The actual website *HTML* pages are generated using
   [*Hugo*](https://gohugo.io), a static site generator
 - An open source
   [theme](https://github.com/panr/hugo-theme-hello-friend/) is used by
-  Hugo for styling the generated pages
+  the static site generator for styling the generated pages
 
-The blog is published through a continuous delivery system using
-[*Vercel*](https://vercel.com/) that builds automatically the website from
-github and publish it on CDN.
+The blog is published online through a continuous delivery system using
+[*Vercel*](https://vercel.com/) which builds automatically the website
+from *Github* repo `master` branch and publish it on CDN.
 
 If you want to try the website locally, you need to :
-- install [Hugo](https://gohugo.io/getting-started/quick-start/)
-- clone the website [repo](https://github.com/hfrsoussama/oussamahaff_dev/)
-- launch the command `hugo server` from the root folder of the clone repo
-- in most cases, hugo will indicate that the site is available locally
+- Install [*Hugo*](https://gohugo.io/getting-started/quick-start/)
+- Clone the website's *Github* [repository](https://github.com/hfrsoussama/oussamahaff_dev/)
+- Launch the command `hugo server` from the root folder of the clone repo
+- In most cases, *Hugo* will indicate that the site is available locally
   on your machine at `localhost:1313`
+
+
+{{< image
+src="/img/00_how_to_uses_website/end_of_produce_readme.svg"
+position="left"  
+style="border-radius: 8px;" >}}
 
