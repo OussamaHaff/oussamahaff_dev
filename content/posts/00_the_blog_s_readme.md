@@ -23,6 +23,7 @@ description = "If it's the first time you visit my blog, welcome ! You may find 
 
 # What can I find in this Blog ?
 This is my personal blog where I'll be sharing my knowledge about :
+
 - Mobile Apps engineering especially `Android`
 - Software `Craftsmanship`
 - My `own views` on tech in general
@@ -31,6 +32,7 @@ This is my personal blog where I'll be sharing my knowledge about :
 
 # Does this website respect my privacy ?
 This blog simply :
+
 - has `no ads`
 - has `no trackers`
 - has `no SEO scripts`
@@ -57,6 +59,7 @@ comments and feedbacks are **already filled** for you with basic
 information.
 
 You will be able to :
+
 - ask a question
 - suggest an improvement for an article or for the whole website
 - alert the author about a deprecated content
@@ -71,6 +74,7 @@ captionPosition="center" >}}
 # What tech stack has been used to build this blog ?
 For optimal speed and security, the blog is built using what's called the
 [*JAM Stack*](https://jamstack.org)
+
 - Pages and articles are just markdown files
 - The actual website *HTML* pages are generated using
   [*Hugo*](https://gohugo.io), a static site generator
@@ -79,11 +83,12 @@ For optimal speed and security, the blog is built using what's called the
   the static site generator for styling the generated pages
 
 The blog is published online through a
-[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments?environment=Production#activity-log)
+[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments/activity_log?environment=Production)
 system using [*Vercel*](https://vercel.com/) which builds automatically
 the website from *Github* repo `master` branch and publish it on CDN.
 
 If you want to try the website locally, you need to :
+
 - Install [*Hugo*](https://gohugo.io/getting-started/quick-start/)
 - Clone the website's *Github* [repository](https://github.com/hfrsoussama/oussamahaff_dev/)
 - Launch the command `hugo server` from the root folder of the clone repo

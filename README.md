@@ -64,7 +64,7 @@ For optimal speed and security, the blog is built using what's called the
   the static site generator for styling the generated pages
 
 The blog is published online through a
-[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments?environment=Production#activity-log)
+[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments/activity_log?environment=Production)
 system using [*Vercel*](https://vercel.com/) which builds automatically
 the website from *Github* repo `master` branch and publish it on CDN.
 
