@@ -1,5 +1,3 @@
-[https://oussamahaff.dev](https://oussamahaff.dev)
-
 [TOC levels=1-3]: #
 
 # Table of Contents
@@ -11,7 +9,8 @@
 
 
 # What can I find in this Blog ?
-This is my personal blog, and I'll be sharing my knowledge about :
+[*https://oussamahaff.dev*](https://oussamahaff.dev) is my personal blog
+where I'll be sharing my knowledge about :
 - Mobile Apps engineering especially `Android`
 - Software `Craftsmanship`
 - My `own views` on tech in general
@@ -64,9 +63,10 @@ For optimal speed and security, the blog is built using what's called the
   [theme](https://github.com/panr/hugo-theme-hello-friend/) is used by
   the static site generator for styling the generated pages
 
-The blog is published online through a continuous delivery system using
-[*Vercel*](https://vercel.com/) which builds automatically the website
-from *Github* repo `master` branch and publish it on CDN.
+The blog is published online through a
+[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments?environment=Production#activity-log)
+system using [*Vercel*](https://vercel.com/) which builds automatically
+the website from *Github* repo `master` branch and publish it on CDN.
 
 If you want to try the website locally, you need to :
 - Install [*Hugo*](https://gohugo.io/getting-started/quick-start/)

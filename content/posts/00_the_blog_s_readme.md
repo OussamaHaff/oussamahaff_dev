@@ -8,7 +8,8 @@ description = "If it's the first time you visit my blog, welcome ! You may find 
 
 >*Blog post [edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) can be found in the website's Github repository.*
 
->*[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) through Github issues to avoid cross-site trackers.*
+
+>[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *through Github issues to avoid cross-site trackers.*
 
 [TOC levels=1-3]: #
 
@@ -21,7 +22,7 @@ description = "If it's the first time you visit my blog, welcome ! You may find 
 
 
 # What can I find in this Blog ?
-This is my personal blog, and I'll be sharing my knowledge about :
+This is my personal blog where I'll be sharing my knowledge about :
 - Mobile Apps engineering especially `Android`
 - Software `Craftsmanship`
 - My `own views` on tech in general
@@ -77,9 +78,10 @@ For optimal speed and security, the blog is built using what's called the
   [theme](https://github.com/panr/hugo-theme-hello-friend/) is used by
   the static site generator for styling the generated pages
 
-The blog is published online through a continuous delivery system using
-[*Vercel*](https://vercel.com/) which builds automatically the website
-from *Github* repo `master` branch and publish it on CDN.
+The blog is published online through a
+[*continuous delivery*](https://github.com/hfrsoussama/oussamahaff_dev/deployments?environment=Production#activity-log)
+system using [*Vercel*](https://vercel.com/) which builds automatically
+the website from *Github* repo `master` branch and publish it on CDN.
 
 If you want to try the website locally, you need to :
 - Install [*Hugo*](https://gohugo.io/getting-started/quick-start/)
