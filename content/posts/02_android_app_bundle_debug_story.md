@@ -311,28 +311,28 @@ problem-solving-mindset and avoid getting angry in order to do a proper
 investigation.
 
 These are my thoughts that I want to share with you :
-* Error messages are not 100% correct. In our case, you may think that I
-  should have checked the result `AndroidManifest.xml` since the beginning
-  ! I actually did, but the aapt error message was not correct about the
-  type of the error nor the line number :/
-* When you add a third party
-  library or SDK to your app, you are adding its features and also its
-  bugs.
-* The Android Asset Packaging (*aapt*) must become type-safe,
-  otherwise it’s very difficult to spot and avoid such scenarios in big
+
+- Error messages are not 100% correct. In our case, you may think that I
+  should have checked the result `AndroidManifest.xml` since the
+  beginning ! I actually did, but the aapt error message was not correct
+  about the type of the error nor the line number :/
+
+- When you add a third party library or SDK to your app, you are adding
+  its features and also its bugs.
+
+- The Android Asset Packaging (*aapt*) must become type-safe, otherwise
+  it’s very difficult to spot and avoid such scenarios in big
   apps.
-* Reading carefully the Android documentation is not easy, but it’s
-  very important, so you can understand the relation between different
-  actors of the app when it comes to build, delivery and runtime.
-* With Android App Bundle, the Android team is doing a great job trying
+
+- Reading carefully the Android documentation is not easy, but it’s very
+  important, so you can understand the relation between different actors
+  of the app when it comes to build, delivery and runtime.
+
+- With Android App Bundle, the Android team is doing a great job trying
   to improve the experience for both developers (No more
   [multiple APKs](https://developer.android.com/studio/build/configure-apk-splits)
   having different app versions) and Android users (downloading only
   what they need) — Thank you, Android team !
-* Final thought -
-
-
-{{< tweet 1128643958614167552 >}}
 
  *Originally published in
 [ProAndroidDev](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3).
