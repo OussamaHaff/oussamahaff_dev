@@ -27,12 +27,9 @@ This blog simply :
 It's a static site, generated from markdown files. You can read about
 how it's made further in this article.
 
-
-{{< figure src="/img/00_the_blog_s_readme/no_trackers_no_cookies.webp"
-position="center"  
-style="border-radius: 8px;"  
-caption="Captured from *Brave* browser on strict privacy mode. No privacy tradeoffs !"  
-captionPosition="center" >}}
+<img src="static/img/00_the_blog_s_readme/no_trackers_no_cookies.webp"
+alt="Captured from Brave browser on strict privacy mode. No privacy
+tradeoffs !" style="float: center; border-radius: 8px;" />
 
 
 # How to give feedback on an article ?
