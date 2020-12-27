@@ -2,19 +2,21 @@
 date = "2020-12-26"  
 author = "Oussama Hafferssas"  
 cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
-description = "If it's the first time you visit my blog, you may find it a little different from other websites, therefore I'll try to make sure in this dedicated article that everything is clear and transparent for you."  
+description = "If it's the first time you visit my blog, welcome ! You may find this 5 minutes read interesting to have a clear view on the blog."  
 +++
 
 
->*Blog post edit history can be found in the website's Github repository* [*here*](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/01_groovy_to_kotlin_dsl_2018.md).
+>*Blog post [edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) can be found in the website's Github repository.*
+
+>*[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) through Github issues to avoid cross-site trackers.*
 
 [TOC levels=1-3]: #
 
 # Table of Contents
 - [What can I find in this Blog ?](#what-can-i-find-in-this-blog-)
 - [Does this website respect my privacy ?](#does-this-website-respect-my-privacy-)
-- [There is no way to comment on an article, what's the alternative ?](#there-is-no-way-to-comment-on-an-article-whats-the-alternative-)
-- [What is the tech stack used to build this blog ?](#what-is-the-tech-stack-used-to-build-this-blog-)
+- [How to give feedback on an article ?](#how-to-give-feedback-on-an-article-)
+- [What tech stack has been used to build this blog ?](#what-tech-stack-has-been-used-to-build-this-blog-)
 
 
 
@@ -23,8 +25,8 @@ This is my personal blog, and I'll be sharing my knowledge about :
 - Mobile Apps engineering especially `Android`
 - Software `Craftsmanship`
 - My `own views` on tech in general
-- All articles are `reviewed` by `trusted` engineer(s) in the community.
-- All articles have a `transparent` modification history.
+- All articles, except views, are `reviewed` by `trusted` engineer(s) in the community
+- All articles have a `transparent` modification history
 
 # Does this website respect my privacy ?
 This blog simply :
@@ -45,7 +47,7 @@ caption="Captured from *Brave* browser on strict privacy mode. No privacy tradeo
 captionPosition="center" >}}
 
 
-# There is no way to comment on an article, what's the alternative ?
+# How to give feedback on an article ?
 In every article you will find a link to [***create an issue***](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) on the
 blog's *Github* repository. Templates for different types of comments and
 feedbacks are **already filled** with basic information.
@@ -62,8 +64,8 @@ position="center" style="border-radius: 8px;"
 caption="To avoid comments plugin that track you, I've made *Github* templates ready for you :)"  
 captionPosition="center" >}}
 
-# What is the tech stack used to build this blog ?
-For optimal speed and security, the blog is built what's called the
+# What tech stack has been used to build this blog ?
+For optimal speed and security, the blog is built using what's called the
 [*JAM Stack*](https://jamstack.org)
 - Pages and articles are just markdown files
 - The actual website *HTML* pages are generated using
