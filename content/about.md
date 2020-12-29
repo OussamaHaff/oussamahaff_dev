@@ -4,8 +4,7 @@ date = "2020-12-16"
 
 # Oussama Hafferssas
 
-{{< image src="/img/about/profile_photo_rounded_200.webp"
-position="left"  
+{{< image src="/img/about/profile_cover.webp" position="center"  
 style="border-radius: 8px;" >}}
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/OussamaHaff?label=%40OussamaHaff&logoColor=black&style=social)](https://twitter.com/OussamaHaff)
@@ -21,14 +20,14 @@ style="border-radius: 8px;" >}}
 - Work mainly on `FinTech` mobile apps
 - Love all means of sharing knowledge `except illegal ones !`
 
-This is my Tech T-shape profile for a better view, with hints about
+This is my [*T-shape*](https://en.wikipedia.org/wiki/T-shaped_skills) Tech profile for a better view, with hints about
 `upcoming` articles 😉
 
 {{< image src="/img/about/t-shape-tech-profile.svg" position="center"
 style="border-radius: 8px;" >}}
 
 - All what you need to know about this blog is well explained in
-  [this article](https://oussamahaff.dev/posts/00_the_blog_s_readme/)
+  [***dedicated article***](https://oussamahaff.dev/posts/00_the_blog_s_readme/)
 
 
 > *Ethics-Driven Development is the best type of development !*
