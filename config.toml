@@ -56,7 +56,25 @@ logoHomeLink = "/"
 identifier = "about"
 name = "About"
 url = "/about"
-[[languages.en.menu.main]]
-identifier = "talks"
-name = "Talks"
-url = "/talks"
+
+# Talks page
+#[[languages.en.menu.main]]
+#identifier = "talks"
+#name = "Talks"
+#url = "/talks"
+
+# Privacy
+# All Hugo integrated social services are disabled  https://gohugo.io/about/hugo-and-gdpr/#disable-all-services
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+disable = true
+[privacy.instagram]
+disable = true
+[privacy.twitter]
+disable = true
+[privacy.vimeo]
+disable = true
+[privacy.youtube]
+disable = true
