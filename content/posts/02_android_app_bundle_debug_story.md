@@ -8,7 +8,9 @@ description = "In this article I will focus on the problem-solving mindset behin
 
 [![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Jul%2027,%202019-blue.svg?style=flat)](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3)
 
->*Blog post edit history can be found in the website's Github repository* [*here*](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/02_android_app_bundle_debug_story.md)
+>*Blog post [edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/02_android_app_bundle_debug_story.md) can be found in the website's Github repository.*
+
+>[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
 
 As Android developers, we tend to write about best practices, trending
 architectures, new libraries and so on, but we rarely find detailed

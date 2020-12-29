@@ -9,7 +9,7 @@ description = "If it's the first time you visit my blog, welcome ! You may find 
 >*Blog post [edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) can be found in the website's Github repository.*
 
 
->[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *through Github issues to avoid cross-site trackers.*
+>[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
 
 [TOC levels=1-3]: #
 
