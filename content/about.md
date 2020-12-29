@@ -27,16 +27,9 @@ This is my Tech T-shape profile for a better view, with hints about
 {{< image src="/img/about/t-shape-tech-profile.svg" position="center"
 style="border-radius: 8px;" >}}
 
-## Active contributions
-- Now contributing to
-[*ComposeCookBook*](https://github.com/Gurupreet/ComposeCookBook), an
-Open Source Android app that serves as an example of real world use case
-scenarios of Jetpack Compose.
-
-## About this blog
-- All what you need to know is well explained in [this article
-  about this blog](https://oussamahaff.dev/posts/00_the_blog_s_readme/)
+- All what you need to know about this blog is well explained in
+  [this article](https://oussamahaff.dev/posts/00_the_blog_s_readme/)
 
 
-> >**`Ethics-Driven Development`** is the best type of development !
+> *Ethics-Driven Development is the best type of development !*
 
