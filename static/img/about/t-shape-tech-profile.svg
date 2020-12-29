@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1200 850" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g id="Calque2" transform="matrix(0.9375,0,0,0.787037,0,-2.42111e-14)">
-        <rect x="0" y="0" width="1280" height="1080" style="fill:rgb(0,5,34);"/>
-    </g>
     <g transform="matrix(0.688574,0,0,0.688574,268.228,-130.397)">
         <g transform="matrix(1,0,0,1.35961,0,-91.4802)">
             <path d="M299.576,276.104C299.576,264.117 286.343,254.384 270.044,254.384L108.355,254.384C92.056,254.384 78.823,264.117 78.823,276.104L78.823,319.545C78.823,331.533 92.056,341.266 108.355,341.266L270.044,341.266C286.343,341.266 299.576,331.533 299.576,319.545L299.576,276.104Z" style="fill:none;stroke:white;stroke-opacity:0.27;stroke-width:3.55px;stroke-dasharray:7.1,10.65,0,0;"/>
