@@ -1,4 +1,4 @@
-+++ title = "The blog's README"  
++++ title = "About this blog"  
 date = "2020-12-26"  
 author = "Oussama Hafferssas"  
 cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
