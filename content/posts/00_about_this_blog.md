@@ -101,3 +101,5 @@ src="/img/00_the_blog_s_readme/end_of_produce_readme.svg"
 position="left"  
 style="border-radius: 8px;" >}}
 
+
+> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
