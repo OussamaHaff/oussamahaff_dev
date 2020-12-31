@@ -27,7 +27,7 @@ This is my [*T-shape*](https://en.wikipedia.org/wiki/T-shaped_skills) Tech profi
 style="border-radius: 8px;" >}}
 
 - All what you need to know about this blog is well explained in
-  [***dedicated article***](https://oussamahaff.dev/posts/00_the_blog_s_readme/)
+  [***dedicated article***](https://oussamahaff.dev/posts/00_about_this_blog/)
 
 
 > *Ethics-Driven Development is the best type of development !*
