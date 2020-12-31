@@ -339,3 +339,5 @@ These are my thoughts that I want to share with you :
  *Originally published in
 [ProAndroidDev](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3).
 Thanks to Simon Percic for th review.*
+
+> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*

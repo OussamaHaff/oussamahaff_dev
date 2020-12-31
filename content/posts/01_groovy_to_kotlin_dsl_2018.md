@@ -403,3 +403,5 @@ build smoother, safer and healthier 🙏
 *Originally published in
 [ProAndroidDev](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737).
 Thanks to Simon Percic for th review.*
+
+> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*

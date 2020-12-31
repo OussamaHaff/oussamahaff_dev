@@ -29,8 +29,8 @@ showReadingTime = false
 [languages.en]
 title = "Oussama Haff. Blog"
 subtitle = "Personal Mobile Tech Blog"
-keywords = "Android ,Software Engineering"
-copyright = "Oussama Hafferssas 2020 © This blog has no trackers, no search engine optimization and does not collect, retain or transfer any user data."
+keywords = "Android, Software, Engineering"
+copyright = "Oussama Hafferssas 2021 © The blog has no trackers & does not collect or transfer any user data."
 menuMore = "Show more"
 writtenBy = "Written by"
 readMore = "Read more"
