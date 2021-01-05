@@ -348,7 +348,7 @@ Bravo !
 label_1="Jetpack Compose"
 src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"  
 label_2="Pure Kotlin"
-src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.jpg" >}}
+src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.jpg" />}}
 
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
