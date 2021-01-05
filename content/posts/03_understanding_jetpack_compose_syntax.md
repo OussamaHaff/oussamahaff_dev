@@ -9,9 +9,6 @@ description = "In this article, I will demessify the syntax of Jetpack Compose f
 >*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) of this post can be found in the blog's Github repository.*
 
 
->[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
-
-
 
 I believe that if you are reading this article you already know that
 Jetpack Compose is a new Kotlin framework which enables you to build UIs
@@ -30,7 +27,13 @@ the fancy words used to explain Jetpack Compose.
 
 
 # Basic Jetpack Compose syntax
-The is the syntax of Jetpack Compose that we want
+This the syntax of Jetpack Compose that we want :
+
+{{< figure
+src="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"
+position="center" style="border-radius: 8px;"  
+caption="Syntax used for Jetpack Compose"  
+captionPosition="center" >}}
 
 
 # Demessifying Compose' syntax
@@ -341,6 +344,11 @@ Bravo !
 
 ## The final result
 
+{{< juxtaposer  
+label_1="Jetpack Compose"
+src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"  
+label_2="Pure Kotlin"
+src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.jpg" >}}
 
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
