@@ -2,7 +2,7 @@
 date = "2021-01-02"  
 author = "Oussama Hafferssas"  
 cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
-description = "In this article, I’ll try to demessify the syntax of Jetpack Compose by using pure Kotlin and what you already know about OOP."  
+description = "In this article, I will demessify the syntax of Jetpack Compose for you by using pure Kotlin, interactive code that you can read and modify, and what you already know about OOP. I'll explain some of the frequently used fancy words when using Compose."  
 +++
 
 
@@ -13,22 +13,25 @@ description = "In this article, I’ll try to demessify the syntax of Jetpack Co
 
 
 
-I believe that if you reading this article you already know that Jetpack
-Compose is a new Kotlin framework which enables you to build UIs for
-Android applications, and also for Kotlin desktop applications.
+I believe that if you are reading this article you already know that
+Jetpack Compose is a new Kotlin framework which enables you to build UIs
+for Android applications, and also for Kotlin desktop applications.
 
 However, Jetpack Compose brings a syntax that may look strange for some
 of us - developers - especially those doing mainly Object-Oriented
 Programming.
 
 Therefore, in this article I’ll try to demessify the syntax of Jetpack
-Compose by using basic and pure Kotlin, and what you already know about
-OOP. Along the path, you may get impressed also by the simplicity that
-hides behind some of the fancy words used to explain Jetpack Compose.
+Compose by using basic and pure Kotlin, interactive code that you can
+read and modify, and what you already know about OOP. Along the path,
+you may get impressed also by the simplicity that hides behind some of
+the fancy words used to explain Jetpack Compose.
 
 
 
 # Basic Jetpack Compose syntax
+The is the syntax of Jetpack Compose that we want
+
 
 # Demessifying Compose' syntax
 
@@ -42,7 +45,7 @@ we can write something like this in Kotlin :
 {{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="55"/>}}
 
 > *This Kotlin code can get more compact, but we will keep it as*
-> ***explicit** as it could be for the sake of explication.*
+> ***explicit** as it could be for the sake of clarity.*
 
 The three lines of code in the `main()` function represent the usual
 three basic steps that we generally use in Object-Oriented Programming
@@ -189,31 +192,160 @@ Our program will look like this after refactoring :
 embeded_link="https://pl.kotl.in/TOEJP1D30?from=1&to=22&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
-By doing this refactoring, a fancy expression can be used to describe
-the function `prettyPrinter` which is : ***`prettyPrinter` is
-Higher-Order Function***. Which just means that it accepts a
-representation of a function as a parameter (or simply : it accepts a
-function as a parameter)
+> *I'll explain later why the result of multiplication is not displayed*
+> 😉
+
+By doing this refactoring, a *fancy* expression can be used to describe
+the function `prettyPrinter`
+>we can say : ***prettyPrinter is Higher-Order Function***
+
+Which simply means that it **accepts a function as a parameter**.
 
 
 
-//TODO
+However, the goal is not to show you only Kotlin features. So, we will
+keep going on with our refactoring.
 
-However, the goal is not to show you one of Kotlin features. Instead, we
-will use this feature to
+
+## Invoking the function parameter
+If you run the program where we have left, you will get this result :
+`Function0<java.lang.Float>` instead of printing the result of the
+multiplication (in our case `20.0`).
+
+This is simply because we are trying to print the *representation of the
+function* by using directly the name of the parameter in
+`$operationAsParam` instead of the value returned after invoking
+(running) the function.
+
+To fix this, you just need to modify the String template from this
+representation of the function :
+
+```kotlin
+    println("The result is : $operationAsParam")
+```
+
+to an invocation by adding `()` after the name of the parameter :
+
+```kotlin
+    println("The result is : ${operationAsParam()}")
+```
+
+This will actually replace the function parameter name with the value
+returned by the function after its invocation.
+
+> Feel free to modify the interactive code to test it by yourself 🙂
+
+
+## Being Anonymous !
+Thanks to our last factoring, we can now delete the intermediate
+variable called `operation`
+
+```kotlin
+    val operation: ()-> Float = { multiplication(paramY = 4f, paramX = 5f) }
+    prettyPrinter(operationAsParam = operation)
+```
+
+to obtain this :
+
+```kotlin
+    prettyPrinter(operationAsParam = { multiplication(paramY = 4f, paramX = 5f) } )
+```
+
+We can simplify it by deleting the non-essential named parameter like
+this :
+
+```kotlin
+    prettyPrinter( { multiplication(paramY = 4f, paramX = 5f) } )
+```
+
+Now we don't have any intermediate variable 👌 and our code will run
+like a charm !
+
+{{< playground
+embeded_link="https://pl.kotl.in/jg4r0qxOs?from=1&to=11&readOnly=false&theme=darcula"
+embeded_height="30" />}}
+
+Let me explain something here, by deleting the intermediate variable, we
+deleted what identifies our function `{ multiplication(paramY = 4f,
+paramX = 5f) }`. Therefore, in programming we call it an ***Anonymous
+Function*** !
+
+In Kotlin, when we have a *higher-order function* (in our case
+`prettyPrinter`) which has only one parameter passed as an anonymous
+function expression (like in our case) we can delete the parenthesis and
+write this :
+
+```kotlin
+    prettyPrinter { multiplication(paramY = 4f, paramX = 5f) } 
+    // or
+    prettyPrinter { 
+        multiplication(paramY = 4f, paramX = 5f) 
+    } 
+```
+
+> Feel free to modify the interactive code to test it by yourself 😉
+
+By doing this, we can say that we have achieved a syntax that actually
+looks the syntax of Jetpack Compose just by combining functions.
+
+In programming this is called
+[***function composition***](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
+I guess you know now why it's called Compose 😉
+
+## Trailing Lambda
+We will add a small thing to our code to make it more Compose-alike.
+
+Actually, the function `prettyPrinter` prints a fixed message with the
+result which is not really flexible. To avoid this, we will pass it as a
+parameter like this :
+
+```kotlin
+    fun prettyPrinter(message: String, operationAsParam: ()-> Float) {
+        println("$message ${operationAsParam()}")
+    }
+```
+
+By doing this, we need to pass its value when calling the function like
+this :
+
+{{< playground
+embeded_link="https://pl.kotl.in/5yoy74kVN?from=1&to=11&readOnly=false&theme=darcula"
+embeded_height="30" />}}
+
+By now you can ask the question : why we write on parameter inside the
+parenthesis (The `message` parameter) while the function has two
+parameters ?
+
+The answer is that this is a convention Kotlin. Because the last
+parameter of () is a function, when calling it we can write the
+expression of the function parameter outside the parenthesis.
+
+This convention is called
+[***Trailing Lambda***](https://kotlinlang.org/docs/reference/lambdas.html#passing-a-lambda-to-the-last-parameter).
+
 
 
 ## The one last thing to do !
-After the last refactoring you may
 
-correct program trainling lmbda
+- Just capitalize the names of the two functions to get
+  `PrettyPrinter(...` and `Multiplication(...`
+- Give the `message` parameter a default value to avoid writing it when
+  calling the function each time.
 
-comparaison
+{{< playground
+embeded_link="https://pl.kotl.in/RgQbx4Nwy?from=1&to=21&readOnly=false&theme=darcula"
+embeded_height="50" />}}
 
 
+Bravo !
+
+## The final result
 
 
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
 
-https://blog.jetbrains.com/kotlin/2015/06/improving-java-interop-top-level-functions-and-properties/
+
+Written by [Oussama Hafferssas](https://twitter.com/OussamaHaff). Thanks to [***NAME FAMILLY-NAME***](https://twitter.com/----) for
+reviewing the content.
+
