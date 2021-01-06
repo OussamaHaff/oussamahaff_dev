@@ -49,7 +49,7 @@ behind some of the fancy words used to explain *Jetpack Compose*.
 
 
 # Basic Jetpack Compose Syntax
-This is how the syntax of Jetpack Compose looks like in general. At the
+This is how the syntax of *Jetpack Compose* looks like in general. At the
 end of the article, we will compare it with our code that we will be
 refactoring in a step-by-step guide.
 
@@ -89,6 +89,8 @@ writing the code differently.
 - Instead of giving it a verb as a name like `multiply`, we will give it
   a ***noun*** as a name like `multiplication`.
 
+>*Check the new added lines bellow the comment `// The new style`*
+
 {{< playground
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
 embeded_height="45" />}}
@@ -109,7 +111,7 @@ Let's do the same for the function that prints the result.
 - Declare a new printing function as a **top-level** function
 - Give it a **noun name**. Let's call it `prettyPrinter`.
 
-Our code will look like the part in `// The new style`
+Our code will look like this :
 
 {{< playground
 embeded_link="https://pl.kotl.in/90jJR36l9?from=1&to=22&readOnly=false&theme=darcula"
@@ -123,25 +125,27 @@ embeded_height="50" />}}
 
 Let's say that we don't want to use an intermediate variable to store
 the result of multiplication. In our example, this means deleting the
-use of the variable `multiplicationResult`.  
+use of the variable `multiplicationResult`.
+
 There are **two ways** to do it.
 
 **The first**, which is classical OOP and you may already guessed it, is by
-deleting it from `prettyPrinter` function and replacing it by a call
-(invokation) of the function `multiplicationResult` inside of the
-*String* message like this
+deleting the parameter from `prettyPrinter` function and replacing it by a call
+(invocation) of the function `multiplicationResult` inside of the
+*String* message like this :
 
 
 {{< playground
-embeded_link="https://pl.kotl.in/iXGv60DsV?from=1&to=22&readOnly=false&theme=darcula"
+embeded_link="https://pl.kotl.in/cLfwDP3gj?from=1&to=22&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
 It's true that the program will give the same result, but unfortunately
-it has nothing to with Jetpack Compose syntax that we are looking for.
+it's nowhere near the syntax of *Jetpack Compose* that we are looking for.
 
 Note also that the function `prettyPrinter` now ***prints exclusively***
-the result of the function `multiplication` and not any `Float` given to
-it. Which makes the function `prettyPrinter` not reusable at all !
+the result of the function `multiplication` with the specified
+parameters instead of printing any `Float` passed to it. Which makes the
+function `prettyPrinter` not that reusable !
 
 Let's try **the second** way of doing things.
 
@@ -171,22 +175,25 @@ returned by the function `multiplication`. Therefore, we can write this
 Please **look** at `multiplicationResult` declaration.
 
 The declaration means that you represent **the result of the
-invokation** of the function `multiplication` by a variable.
+invocation** of the function `multiplication` by a variable.
 
 What about the **representation of the function** by itself ? Is there a
 way to declare it ?
 
-Fortunately, the answer is yes, and this is how it looks like :
+Fortunately, the answer is yes, and this is how it will look like :
 ```kotlin
     // The new style
     val operation: ()-> Float = { multiplication(paramY = 4f, paramX = 5f) }
 ```
 You can read it as follows :
+
 - On the left side : the variable `operation` is of type `()-> Float`
   which means that it's of type ***function that does something and
-  return Float***.
-- On the tight side : ***what this function does*** is represented by what's
-  inside `{ }`. In our case, it does multiplication and returns a Float.
+  return a Float***.
+
+- On the right side : we describe ***what this function actually does***
+  which is represented by what's inside the curly braces `{ }`. In our
+  case, it does multiplication and returns the result as a `Float`.
 
 Now, lets refactor our code to use this new function representation.
 
