@@ -67,8 +67,7 @@ we can write something like this in Kotlin :
 
 {{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="55"/>}}
 
-> *This Kotlin code can get more compact, but we will keep it as*
-> ***explicit** as it could be for the sake of clarity.*
+> *This Kotlin code can get more compact, but we will keep it as **explicit** as it could be for the sake of clarity.*
 
 The three lines of code in the `main()` function represent the usual
 three basic steps that we generally use in Object-Oriented Programming
