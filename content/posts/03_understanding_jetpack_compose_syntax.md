@@ -47,7 +47,7 @@ end of the article, we will compare it with our code that we will be
 refactoring in a step-by-step guide.
 
 {{< figure
-src="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"
+src="/img/03_understanding_jetpack_compose_syntax/compose-syntax.webp"
 position="center" style="border-radius: 8px;"  
 caption="*Kotlin* syntax used for *Jetpack Compose* to show an Image"  
 captionPosition="center" >}}
@@ -92,7 +92,7 @@ making it a ***top-level function***. We can understand why it's called
 ***top-level*** just by rotating the editor's canvas.
 
 {{< figure
-src="/img/03_understanding_jetpack_compose_syntax/top_level.jpg"
+src="/img/03_understanding_jetpack_compose_syntax/top_level.webp"
 position="center" style="border-radius: 8px;"  
 caption="Why it's called ***top-level*** function"  
 captionPosition="center" >}}
@@ -253,7 +253,7 @@ to an invocation by adding `()` after the name of the parameter :
 This will actually replace the function parameter name with the value
 returned by the function after its invocation.
 
-> Feel free to modify the interactive code to test it by yourself 🙂
+> Feel free to edit the interactive code to test it by yourself ⬆️
 
 
 ## Being Anonymous !
@@ -303,14 +303,14 @@ write this :
     } 
 ```
 
-> Feel free to modify the interactive code to test it by yourself 😉
+> Feel free to edit the interactive code to test it by yourself ⬆️
 
 By doing this, we can say that we have achieved a syntax that actually
 looks the syntax of Jetpack Compose just by combining functions.
 
 In programming this is called
 [***function composition***](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
-I guess you know now why it's called Compose 😉
+(*Which makes sense for Jetpack Compose* 😉)
 
 ## Trailing Lambda
 We will add a small thing to our code to make it more Compose-alike.
@@ -371,9 +371,9 @@ with Jetpack Compose, it's all about functions !
 
 {{< juxtaposer
 label_1="Jetpack Compose"
-src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"  
+src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.webp"  
 label_2="Pure Kotlin"
-src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.jpg" />}}
+src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.webp" />}}
 
 *I hope Thanks you for taking the time to read this article* : )
 
