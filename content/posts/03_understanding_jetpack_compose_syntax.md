@@ -67,11 +67,11 @@ Let's say we want to print the result of the multiplication of two
 floats. By using the classical approach of Object-Oriented Programming,
 we can write something like this in Kotlin :
 
-> *You can actually **run** this piece of code to test it !*
+> *You can actually run this piece of code to test it !*
 
 {{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="55"/>}}
 
-> *This Kotlin code can get more compact, but we will keep it as **explicit** as it could be for the sake of clarity.*
+> *This Kotlin code can get more compact, but we will keep it as explicit as it could be for the sake of clarity.*
 
 The three lines of code in the `main()` function represent the usual
 three basic steps that we generally use in Object-Oriented Programming
@@ -95,8 +95,7 @@ writing the code differently.
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
 embeded_height="45" />}}
 
-> You can see the hidden code by clicking on the **(+)** signe in the
-> code window.
+> *You can see the hidden code by clicking on the (+) signe in the code window.*
 
 By putting a function outside any class or interface in Kotlin, we are
 making it a ***top-level function***. We can understand why it's called
@@ -231,12 +230,11 @@ Our program will look like this after refactoring :
 embeded_link="https://pl.kotl.in/TOEJP1D30?from=1&to=22&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
-> *I'll explain later why the result of multiplication is not displayed*
-> 😉
+> *I'll explain later why the result of multiplication is not displayed* 😉
 
 By doing this refactoring, a *fancy* expression can be used to describe
-the function `prettyPrinter`
->we can say : ***prettyPrinter is Higher-Order Function***
+the function `prettyPrinter`. We can say that it's ***Higher-Order
+Function***
 
 Which simply means that it **accepts a function as a parameter**.
 
@@ -269,7 +267,7 @@ to an invocation by adding `()` after the name of the parameter :
 This will actually replace the function parameter name with the value
 returned by the function after its invocation.
 
-> Feel free to edit the interactive code to test it by yourself ⬆️
+> *Feel free to edit the interactive code to test it by yourself* ⬆️
 
 
 ## Being Anonymous !
@@ -318,7 +316,7 @@ paramX = 5f) }`) we can delete the parenthesis and write this :
     } 
 ```
 
-> Feel free to edit the interactive code to test it by yourself ⬆️
+> *Feel free to edit the interactive code to test it by yourself* ⬆️
 
 By doing this, we can say that we have achieved a syntax that actually
 looks the syntax of Jetpack Compose just by combining functions.
