@@ -89,11 +89,14 @@ writing the code differently.
 - Instead of giving it a verb as a name like `multiply`, we will give it
   a ***noun*** as a name like `multiplication`.
 
->*Check the new added lines bellow the comment `// The new style`*
+> *Check the new added lines bellow the comment `// The new style`*
 
 {{< playground
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
 embeded_height="45" />}}
+
+> You can see the hidden code by clicking on the **(+)** signe in the
+> code window.
 
 By putting a function outside any class or interface in Kotlin, we are
 making it a ***top-level function***. We can understand why it's called
@@ -209,13 +212,16 @@ fun prettyPrinter(result: Float) {
 }
 ```
 In order to pass the new representation of our `multiplication` function
-as parameter, we need to refactor our function like this :
+as parameter, we need to refactor it function like this :
+
 ```kotlin
 fun prettyPrinter(operationAsParam: ()-> Float) {
     println("The result is : $operationAsParam")
 }
 ```
+
 Note that :
+
 - We changed the name of the parameter to `operationAsParam` just for clarification
 - The type of the parameter has changed from `Float` to `()-> Float`
 
@@ -234,10 +240,7 @@ the function `prettyPrinter`
 
 Which simply means that it **accepts a function as a parameter**.
 
-
-
-However, the goal is not to show you only Kotlin features. So, we will
-keep going on with our refactoring.
+Now you know this, let's keep going on with our refactoring.
 
 
 ## Invoking the function parameter
@@ -247,10 +250,10 @@ multiplication (in our case `20.0`).
 
 This is simply because we are trying to print the *representation of the
 function* by using directly the name of the parameter in
-`$operationAsParam` instead of the value returned after invoking
-(running) the function.
+`$operationAsParam` instead of printing the value returned after
+invoking (running) the function.
 
-To fix this, you just need to modify the String template from this
+To fix this, you just need to modify the *String Template* from this
 representation of the function :
 
 ```kotlin
@@ -271,21 +274,20 @@ returned by the function after its invocation.
 
 ## Being Anonymous !
 Thanks to our last factoring, we can now delete the intermediate
-variable called `operation`
+variable called `operation` to go from this :
 
 ```kotlin
     val operation: ()-> Float = { multiplication(paramY = 4f, paramX = 5f) }
     prettyPrinter(operationAsParam = operation)
 ```
 
-to obtain this :
+to this :
 
 ```kotlin
     prettyPrinter(operationAsParam = { multiplication(paramY = 4f, paramX = 5f) } )
 ```
 
-We can simplify it by deleting the non-essential named parameter like
-this :
+We can simplify it by deleting the optional named parameter like this :
 
 ```kotlin
     prettyPrinter( { multiplication(paramY = 4f, paramX = 5f) } )
@@ -305,8 +307,8 @@ Function*** !
 
 In Kotlin, when we have a *higher-order function* (in our case
 `prettyPrinter`) which has only one parameter passed as an anonymous
-function expression (like in our case) we can delete the parenthesis and
-write this :
+function expression (like in our case `{ multiplication(paramY = 4f,
+paramX = 5f) }`) we can delete the parenthesis and write this :
 
 ```kotlin
     prettyPrinter { multiplication(paramY = 4f, paramX = 5f) } 
@@ -345,13 +347,16 @@ this :
 embeded_link="https://pl.kotl.in/5yoy74kVN?from=1&to=11&readOnly=false&theme=darcula"
 embeded_height="30" />}}
 
-By now you can ask : why we write on parameter inside the
+
+By now you can ask : why would we write one parameter inside the
 parenthesis (The `message` parameter) while the function has two
 parameters ?
 
-The answer is that this is a convention Kotlin. Because the last
-parameter of () is a function, when calling it we can write the
-expression of the function parameter outside the parenthesis.
+The answer is that it's a convention in Kotlin. It's true that
+`prettyPrinter` has two parameters, but the last one (named
+`operationAsParam`) is a function. Therefore, when calling the
+`prettyPrinter` function, we can write the expression of the parameter
+function parameter outside the parenthesis.
 
 This convention is called
 [***Trailing Lambda***](https://kotlinlang.org/docs/reference/lambdas.html#passing-a-lambda-to-the-last-parameter).
