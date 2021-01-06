@@ -1,8 +1,8 @@
-+++ title = "Helping you understand the syntax of Jetpack Compose"  
++++ title = "Helping You Understand The Syntax of Jetpack Compose"  
 date = "2021-01-02"  
 author = "Oussama Hafferssas"  
-cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
-description = "In this article, I will demessify the syntax of Jetpack Compose for you by using pure Kotlin, interactive code that you can read and modify, and what you already know about OOP. I'll explain some of the frequently used fancy words when using Compose."  
+cover ="/img/03_understanding_jetpack_compose_syntax/cover_compose_syntax_compressed.svg"  
+description = "In this article, I will clarity the syntax of Jetpack Compose for you by using pure Kotlin, interactive code that you can read and modify, and what you already know about OOP. I'll explain some of the frequently used fancy words when using Compose."  
 +++
 
 
@@ -18,11 +18,14 @@ However, Jetpack Compose brings a syntax that may look strange for some
 of us - developers - especially those doing mainly Object-Oriented
 Programming.
 
-Therefore, in this article I’ll try to demessify the syntax of Jetpack
-Compose by using basic and pure Kotlin, interactive code that you can
-read and modify, and what you already know about OOP. Along the path,
-you may get impressed also by the simplicity that hides behind some of
-the fancy words used to explain Jetpack Compose.
+Therefore, in this article I’ll try to clarity the syntax of Jetpack
+Compose by using :
+- Basic and pure Kotlin
+- Interactive code that you can edit and run in this web page
+- What you already know about OOP.
+
+Along the path, you may get impressed also by the simplicity that hides
+behind some of the fancy words used to explain Jetpack Compose.
 
 [TOC levels=1-3]: #
 
@@ -60,7 +63,7 @@ Let's say we want to print the result of the multiplication of two
 floats. By using the classical approach of Object-Oriented Programming,
 we can write something like this in Kotlin :
 
-> *You can **run** the source code to test it*
+> *You can actually **run** this piece of code to test it !*
 
 {{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="55"/>}}
 
@@ -85,7 +88,7 @@ writing the code differently.
 
 {{< playground
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
-embeded_height="50" />}}
+embeded_height="45" />}}
 
 By putting a function outside any class or interface in Kotlin, we are
 making it a ***top-level function***. We can understand why it's called
@@ -109,8 +112,8 @@ Our code will look like the part in `// The new style`
 embeded_link="https://pl.kotl.in/90jJR36l9?from=1&to=22&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
-> *You can run the program to verify that we still have the same result*
-> *that will print to the user*.
+> *By running the piece of code, you can verify that we still have the
+> same result printed to the user*.
 
 
 ## Changing your point of view !
@@ -375,12 +378,20 @@ src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.webp"
 label_2="Pure Kotlin"
 src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.webp" />}}
 
-*I hope Thanks you for taking the time to read this article* : )
+# Thank you !
+I hope that this article helped you mind the gap that you might
+encounter when reading Jetpack Compose' code for the first time. Thank
+you for taking the time to read this article : )
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
 > *using Github issues to avoid cross-site trackers.*
 
+> Privacy Notice : This article has one tracker integrated in the
+> *iframes* provided by
+> [*https://play.kotlinlang.org*](https://play.kotlinlang.org/)
 
-Written by [Oussama Hafferssas](https://twitter.com/OussamaHaff). Thanks to [***NAME FAMILLY-NAME***](https://twitter.com/----) for
-reviewing the content.
+
+Written by [Oussama Hafferssas](https://twitter.com/OussamaHaff). Thanks
+to [***NAME + FAMILLY-NAME***](https://twitter.com/----) for reviewing
+the content.
 
