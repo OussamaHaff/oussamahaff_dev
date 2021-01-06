@@ -24,19 +24,36 @@ read and modify, and what you already know about OOP. Along the path,
 you may get impressed also by the simplicity that hides behind some of
 the fancy words used to explain Jetpack Compose.
 
+[TOC levels=1-3]: #
+
+# Table of Contents
+- [Basic Jetpack Compose Syntax](#basic-jetpack-compose-syntax)
+- [From OOP to Function Composition](#from-oop-to-function-composition)
+  - [Basic OOP](#basic-oop)
+  - [Getting to Top-Level !](#getting-to-top-level-)
+  - [Changing your point of view !](#changing-your-point-of-view-)
+  - [Going Higher-Order !](#going-higher-order-)
+  - [Invoking the function parameter](#invoking-the-function-parameter)
+  - [Being Anonymous !](#being-anonymous-)
+  - [Trailing Lambda](#trailing-lambda)
+  - [The one last thing to do !](#the-one-last-thing-to-do-)
+- [The Final Result](#the-final-result)
 
 
-# Basic Jetpack Compose syntax
-This the syntax of Jetpack Compose that we want :
+
+# Basic Jetpack Compose Syntax
+This is how the syntax of Jetpack Compose looks like in general. At the
+end of the article, we will compare it with our code that we will be
+refactoring in a step-by-step guide.
 
 {{< figure
 src="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"
 position="center" style="border-radius: 8px;"  
-caption="Syntax used for Jetpack Compose"  
+caption="*Kotlin* syntax used for *Jetpack Compose* to show an Image"  
 captionPosition="center" >}}
 
 
-# Demessifying Compose' syntax
+# From OOP to Function Composition
 
 ## Basic OOP
 Let's say we want to print the result of the multiplication of two
@@ -70,9 +87,9 @@ writing the code differently.
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
-By putting a function outside of any class or interface in Kotlin, we
-are making it a ***top-level function***. We can understand why it's
-called ***top-level*** just by rotating the editor's canvas.
+By putting a function outside any class or interface in Kotlin, we are
+making it a ***top-level function***. We can understand why it's called
+***top-level*** just by rotating the editor's canvas.
 
 {{< figure
 src="/img/03_understanding_jetpack_compose_syntax/top_level.jpg"
@@ -315,7 +332,7 @@ this :
 embeded_link="https://pl.kotl.in/5yoy74kVN?from=1&to=11&readOnly=false&theme=darcula"
 embeded_height="30" />}}
 
-By now you can ask the question : why we write on parameter inside the
+By now you can ask : why we write on parameter inside the
 parenthesis (The `message` parameter) while the function has two
 parameters ?
 
@@ -335,23 +352,33 @@ This convention is called
 - Give the `message` parameter a default value to avoid writing it when
   calling the function each time.
 
+You are done now, Bravo !
+
+You can check the final code bellow and test the result
+
 {{< playground
 embeded_link="https://pl.kotl.in/RgQbx4Nwy?from=1&to=21&readOnly=false&theme=darcula"
 embeded_height="50" />}}
 
 
-Bravo !
 
-## The final result
+# The Final Result
+As you can see, the final representation using only functions (*function
+composition*) gives as the same result given by the OOP style.
 
-{{< juxtaposer  
+This is the mindset that you will need when reading or writing UI code
+with Jetpack Compose, it's all about functions !
+
+{{< juxtaposer
 label_1="Jetpack Compose"
 src_1="/img/03_understanding_jetpack_compose_syntax/compose-syntax.jpg"  
 label_2="Pure Kotlin"
 src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.jpg" />}}
 
+*I hope Thanks you for taking the time to read this article* : )
 
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
+> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
+> *using Github issues to avoid cross-site trackers.*
 
 
 Written by [Oussama Hafferssas](https://twitter.com/OussamaHaff). Thanks to [***NAME FAMILLY-NAME***](https://twitter.com/----) for
