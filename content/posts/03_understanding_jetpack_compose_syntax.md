@@ -2,7 +2,7 @@
 date = "2021-01-02"  
 author = "Oussama Hafferssas"  
 cover ="/img/03_understanding_jetpack_compose_syntax/cover_compose_syntax_compressed.svg"  
-description = "In this article, I will clarity the syntax of Jetpack Compose for you by using pure Kotlin, interactive code that you can read and modify, and what you already know about OOP. I'll explain some of the frequently used fancy words when using Compose."  
+description = "In this article, I will clarify the syntax of *Jetpack Compose* for you by using pure Kotlin, interactive code that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."  
 +++
 
 
@@ -10,22 +10,26 @@ description = "In this article, I will clarity the syntax of Jetpack Compose for
 
 
 
-I believe that if you are reading this article you already know that
-Jetpack Compose is a new Kotlin framework which enables you to build UIs
-for Android applications, and also for Kotlin desktop applications.
+I believe that if you are reading this article, you already know that
+*Jetpack Compose* is a new Kotlin framework that enables you to build
+UIs for
+[Android applications](https://developer.android.com/jetpack/compose),
+and also for Kotlin
+[Desktop applications](https://blog.jetbrains.com/cross-post/jetpack-compose-for-desktop-milestone-2-released/).
 
-However, Jetpack Compose brings a syntax that may look strange for some
+However, *Jetpack Compose* brings a syntax that may look strange for some
 of us - developers - especially those doing mainly Object-Oriented
 Programming.
 
-Therefore, in this article I’ll try to clarity the syntax of Jetpack
-Compose by using :
+Therefore, I’ll try to clarify the syntax of *Jetpack Compose* in this
+article by using :
 - Basic and pure Kotlin
-- Interactive code that you can edit and run in this web page
-- What you already know about OOP.
+- Interactive code that you can edit and run without leaving this web
+  page
+- What you already know about OOP
 
-Along the path, you may get impressed also by the simplicity that hides
-behind some of the fancy words used to explain Jetpack Compose.
+Along the path, you may get impressed by the simplicity that hides
+behind some of the fancy words used to explain *Jetpack Compose*.
 
 [TOC levels=1-3]: #
 
