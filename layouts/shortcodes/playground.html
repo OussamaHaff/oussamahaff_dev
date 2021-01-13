@@ -1,6 +1,6 @@
 {{ if .IsNamedParams }}
 <html>
-    <iframe src="{{.Get "embeded_link" }}"  style="display: block; border: none; height: {{.Get "embeded_height" }}vh; width: 100%;"></iframe>
+    <iframe src="{{.Get "embeded_link" }}" height="{{.Get "embeded_height" }}" style="display: block; border: none; width: 100%;"></iframe>
 </html>
 {{ end }}
 {{.Inner}}

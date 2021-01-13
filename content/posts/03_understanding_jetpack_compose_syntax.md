@@ -11,7 +11,7 @@ description = "In this article, I will clarify the syntax of *Jetpack Compose* f
 
 
 I believe that if you are reading this article, you already know that
-*Jetpack Compose* is a new Kotlin framework that enables you to build
+*Jetpack Compose* is a new *Kotlin* framework for building
 UIs for
 [Android applications](https://developer.android.com/jetpack/compose),
 and also for Kotlin
@@ -23,6 +23,7 @@ Programming.
 
 Therefore, I’ll try to clarify the syntax of *Jetpack Compose* in this
 article by using :
+
 - Basic and pure Kotlin
 - Interactive code that you can edit and run without leaving this web
   page
@@ -67,14 +68,15 @@ Let's say we want to print the result of the multiplication of two
 floats. By using the classical approach of Object-Oriented Programming,
 we can write something like this in Kotlin :
 
-> *You can actually run this piece of code to test it !*
+> *You can actually run this code snippet to test it !*
 
-{{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="55"/>}}
+{{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="520"/>}}
 
 > *This Kotlin code can get more compact, but we will keep it as explicit as it could be for the sake of clarity.*
 
 The three lines of code in the `main()` function represent the usual
 three basic steps that we generally use in Object-Oriented Programming
+
 - Instantiating an object
 - Tell the object to do the work by invoking one if its methods
 - Present the result to the user
@@ -84,6 +86,7 @@ Now, let's find out a way to implement the same functionality but by
 writing the code differently.
 
 ## Getting to Top-Level !
+
 - First, we will add a function that multiplies two parameters. But we
   will place it outside of any class.
 - Instead of giving it a verb as a name like `multiply`, we will give it
@@ -93,7 +96,7 @@ writing the code differently.
 
 {{< playground
 embeded_link="https://pl.kotl.in/eoAb7djBJ?from=1&to=19&readOnly=false&theme=darcula"
-embeded_height="45" />}}
+embeded_height="430" />}}
 
 > *You can see the hidden code by clicking on the (+) signe in the code window.*
 
@@ -110,6 +113,7 @@ captionPosition="center" >}}
 
 
 Let's do the same for the function that prints the result.
+
 - Declare a new printing function as a **top-level** function
 - Give it a **noun name**. Let's call it `prettyPrinter`.
 
@@ -117,9 +121,9 @@ Our code will look like this :
 
 {{< playground
 embeded_link="https://pl.kotl.in/90jJR36l9?from=1&to=22&readOnly=false&theme=darcula"
-embeded_height="50" />}}
+embeded_height="460" />}}
 
-> *By running the piece of code, you can verify that we still have the
+> *By running this code snippet, you can verify that we still have the
 > same result printed to the user*.
 
 
@@ -139,7 +143,7 @@ deleting the parameter from `prettyPrinter` function and replacing it by a call
 
 {{< playground
 embeded_link="https://pl.kotl.in/cLfwDP3gj?from=1&to=22&readOnly=false&theme=darcula"
-embeded_height="50" />}}
+embeded_height="470" />}}
 
 It's true that the program will give the same result, but unfortunately
 it's nowhere near the syntax of *Jetpack Compose* that we are looking for.
@@ -185,11 +189,11 @@ way to declare it ?
 Fortunately, the answer is yes, and this is how it will look like :
 ```kotlin
     // The new style
-    val operation: ()-> Float = { multiplication(paramY = 4f, paramX = 5f) }
+    val operation: () -> Float = { multiplication(paramY = 4f, paramX = 5f) }
 ```
 You can read it as follows :
 
-- On the left side : the variable `operation` is of type `()-> Float`
+- On the left side : the variable `operation` is of type `() -> Float`
   which means that it's of type ***function that does something and
   return a Float***.
 
@@ -214,7 +218,7 @@ In order to pass the new representation of our `multiplication` function
 as parameter, we need to refactor it function like this :
 
 ```kotlin
-fun prettyPrinter(operationAsParam: ()-> Float) {
+fun prettyPrinter(operationAsParam: () -> Float) {
     println("The result is : $operationAsParam")
 }
 ```
@@ -222,13 +226,13 @@ fun prettyPrinter(operationAsParam: ()-> Float) {
 Note that :
 
 - We changed the name of the parameter to `operationAsParam` just for clarification
-- The type of the parameter has changed from `Float` to `()-> Float`
+- The type of the parameter has changed from `Float` to `() -> Float`
 
 Our program will look like this after refactoring :
 
 {{< playground
-embeded_link="https://pl.kotl.in/TOEJP1D30?from=1&to=22&readOnly=false&theme=darcula"
-embeded_height="50" />}}
+embeded_link="https://pl.kotl.in/NC8pCD5it?from=1&to=22&readOnly=false&theme=darcula"
+embeded_height="470" />}}
 
 > *I'll explain later why the result of multiplication is not displayed* 😉
 
@@ -267,7 +271,7 @@ to an invocation by adding `()` after the name of the parameter :
 This will actually replace the function parameter name with the value
 returned by the function after its invocation.
 
-> *Feel free to edit the interactive code to test it by yourself* ⬆️
+> *Feel free to go back and edit the interactive code snippet* ⬆️
 
 
 ## Being Anonymous !
@@ -275,7 +279,7 @@ Thanks to our last factoring, we can now delete the intermediate
 variable called `operation` to go from this :
 
 ```kotlin
-    val operation: ()-> Float = { multiplication(paramY = 4f, paramX = 5f) }
+    val operation: () -> Float = { multiplication(paramY = 4f, paramX = 5f) }
     prettyPrinter(operationAsParam = operation)
 ```
 
@@ -295,8 +299,8 @@ Now we don't have any intermediate variable 👌 and our code will run
 like a charm !
 
 {{< playground
-embeded_link="https://pl.kotl.in/jg4r0qxOs?from=1&to=11&readOnly=false&theme=darcula"
-embeded_height="30" />}}
+embeded_link="https://pl.kotl.in/yHdfGUo8L?from=1&to=11&readOnly=false&theme=darcula"
+embeded_height="300" />}}
 
 Let me explain something here, by deleting the intermediate variable, we
 deleted what identifies our function `{ multiplication(paramY = 4f,
@@ -333,7 +337,7 @@ result which is not really flexible. To avoid this, we will pass it as a
 parameter like this :
 
 ```kotlin
-    fun prettyPrinter(message: String, operationAsParam: ()-> Float) {
+    fun prettyPrinter(message: String, operationAsParam: () -> Float) {
         println("$message ${operationAsParam()}")
     }
 ```
@@ -342,13 +346,13 @@ By doing this, we need to pass its value when calling the function like
 this :
 
 {{< playground
-embeded_link="https://pl.kotl.in/5yoy74kVN?from=1&to=11&readOnly=false&theme=darcula"
-embeded_height="30" />}}
+embeded_link="https://pl.kotl.in/c7AIb5Ivp?from=1&to=11&readOnly=false&theme=darcula"
+embeded_height="300" />}}
 
 
-By now you can ask : why would we write one parameter inside the
+By now you may ask : *why would we write only one parameter inside the
 parenthesis (The `message` parameter) while the function has two
-parameters ?
+parameters* ?
 
 The answer is that it's a convention in Kotlin. It's true that
 `prettyPrinter` has two parameters, but the last one (named
@@ -373,10 +377,13 @@ You are done now, Bravo !
 You can check the final code bellow and test the result
 
 {{< playground
-embeded_link="https://pl.kotl.in/RgQbx4Nwy?from=1&to=21&readOnly=false&theme=darcula"
-embeded_height="50" />}}
+embeded_link="https://pl.kotl.in/GYRF1nqsp?from=1&to=21&readOnly=false&theme=darcula"
+embeded_height="470" />}}
 
+By doing these two actions you are ensuring that :
 
+- You respect the convention used in *Jetpack Compose* where functions annotated with `@Composable` have capitalized names.
+- You make required and optional function parameters very clear.
 
 # The Final Result
 As you can see, the final representation using only functions (*function
@@ -392,9 +399,12 @@ label_2="Pure Kotlin"
 src_2="/img/03_understanding_jetpack_compose_syntax/pure-kotlin-functions.webp" />}}
 
 # Thank you !
+
 I hope that this article helped you mind the gap that you might
-encounter when reading Jetpack Compose' code for the first time. Thank
-you for taking the time to read this article : )
+encounter when reading *Jetpack Compose*' code for the first time.
+If you feel that you have grasped the syntax, I encourage you to try to understand what *Compose* does behind the scenes (some of that is well explained by *Leland Richardson* in this [*talk*](https://www.youtube.com/watch?v=6BRlI5zfCCk))
+
+Thank you for taking the time to read this article : )
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
 > *using Github issues to avoid cross-site trackers.*
@@ -404,7 +414,7 @@ you for taking the time to read this article : )
 > [*https://play.kotlinlang.org*](https://play.kotlinlang.org/)
 
 
-Written by [Oussama Hafferssas](https://twitter.com/OussamaHaff). Thanks
-to [***NAME + FAMILLY-NAME***](https://twitter.com/----) for reviewing
+Written by [***Oussama Hafferssas***](https://twitter.com/OussamaHaff). Thanks
+to [***Sebastian Aigner***](https://twitter.com/sebi_io) for reviewing
 the content.
 
