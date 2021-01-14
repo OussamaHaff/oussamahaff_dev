@@ -6,7 +6,7 @@ description = "In this article, I will clarify the syntax of *Jetpack Compose* f
 +++
 
 
->*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/article/understand_compose_syntaxt/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
+>*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
 
 
 
