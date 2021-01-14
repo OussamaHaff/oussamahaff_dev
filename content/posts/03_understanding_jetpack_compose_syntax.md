@@ -2,7 +2,7 @@
 date = "2021-01-02"  
 author = "Oussama Hafferssas"  
 cover ="/img/03_understanding_jetpack_compose_syntax/cover_compose_syntax_compressed.svg"  
-description = "In this article, I will clarify the syntax of *Jetpack Compose* for you by using pure Kotlin, interactive code that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."  
+description = "In this article, I will clarify the syntax of *Jetpack Compose* for you by using pure Kotlin, interactive code snippets that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."
 +++
 
 
