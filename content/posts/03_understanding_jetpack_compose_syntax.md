@@ -22,7 +22,7 @@ of us - developers - especially those doing mainly Object-Oriented
 Programming.
 
 Therefore, I’ll try to clarify the syntax of *Jetpack Compose* in this
-article by using :
+article by using:
 
 - Basic and pure Kotlin
 - Interactive code that you can edit and run without leaving this web
@@ -38,13 +38,13 @@ behind some of the fancy words used to explain *Jetpack Compose*.
 - [Basic Jetpack Compose Syntax](#basic-jetpack-compose-syntax)
 - [From OOP to Function Composition](#from-oop-to-function-composition)
   - [Basic OOP](#basic-oop)
-  - [Getting to Top-Level !](#getting-to-top-level-)
-  - [Changing your point of view !](#changing-your-point-of-view-)
-  - [Going Higher-Order !](#going-higher-order-)
+  - [Getting to Top-Level](#getting-to-top-level)
+  - [Changing your point of view](#changing-your-point-of-view)
+  - [Going Higher-Order](#going-higher-order)
   - [Invoking the function parameter](#invoking-the-function-parameter)
-  - [Being Anonymous !](#being-anonymous-)
+  - [Being Anonymous](#being-anonymous)
   - [Trailing Lambda](#trailing-lambda)
-  - [The one last thing to do !](#the-one-last-thing-to-do-)
+  - [The one last thing to do](#the-one-last-thing-to-do)
 - [The Final Result](#the-final-result)
 
 
@@ -66,7 +66,7 @@ captionPosition="center" >}}
 ## Basic OOP
 Let's say we want to print the result of the multiplication of two
 floats. By using the classical approach of Object-Oriented Programming,
-we can write something like this in Kotlin :
+we can write something like this in Kotlin:
 
 > *You can actually run this code snippet to test it !*
 
@@ -85,7 +85,7 @@ three basic steps that we generally use in Object-Oriented Programming
 Now, let's find out a way to implement the same functionality but by
 writing the code differently.
 
-## Getting to Top-Level !
+## Getting to Top-Level
 
 - First, we will add a function that multiplies two parameters. But we
   will place it outside of any class.
@@ -117,7 +117,7 @@ Let's do the same for the function that prints the result.
 - Declare a new printing function as a **top-level** function
 - Give it a **noun name**. Let's call it `prettyPrinter`.
 
-Our code will look like this :
+Our code will look like this:
 
 {{< playground
 embeded_link="https://pl.kotl.in/90jJR36l9?from=1&to=22&readOnly=false&theme=darcula"
@@ -127,7 +127,7 @@ embeded_height="460" />}}
 > same result printed to the user*.
 
 
-## Changing your point of view !
+## Changing your point of view
 
 Let's say that we don't want to use an intermediate variable to store
 the result of multiplication. In our example, this means deleting the
@@ -138,7 +138,7 @@ There are **two ways** to do it.
 **The first**, which is classical OOP and you may already guessed it, is by
 deleting the parameter from `prettyPrinter` function and replacing it by a call
 (invocation) of the function `multiplicationResult` inside of the
-*String* message like this :
+*String* message like this:
 
 
 {{< playground
@@ -157,7 +157,7 @@ Let's try **the second** way of doing things.
 
 
 
-By going back to our code we had this :
+By going back to our code we had this:
 
 ```kotlin
     // The new style
@@ -186,12 +186,12 @@ invocation** of the function `multiplication` by a variable.
 What about the **representation of the function** by itself ? Is there a
 way to declare it ?
 
-Fortunately, the answer is yes, and this is how it will look like :
+Fortunately, the answer is yes, and this is how it will look like:
 ```kotlin
     // The new style
     val operation: () -> Float = { multiplication(paramY = 4f, paramX = 5f) }
 ```
-You can read it as follows :
+You can read it as follows:
 
 - On the left side : the variable `operation` is of type `() -> Float`
   which means that it's of type ***function that does something and
@@ -204,7 +204,7 @@ You can read it as follows :
 Now, lets refactor our code to use this new function representation.
 
 
-## Going Higher-Order !
+## Going Higher-Order
 
 Our function `prettyPrint` was a simple function accepting a `Float` as
 a parameter like this
@@ -215,7 +215,7 @@ fun prettyPrinter(result: Float) {
 }
 ```
 In order to pass the new representation of our `multiplication` function
-as parameter, we need to refactor it function like this :
+as parameter, we need to refactor it function like this:
 
 ```kotlin
 fun prettyPrinter(operationAsParam: () -> Float) {
@@ -228,7 +228,7 @@ Note that :
 - We changed the name of the parameter to `operationAsParam` just for clarification
 - The type of the parameter has changed from `Float` to `() -> Float`
 
-Our program will look like this after refactoring :
+Our program will look like this after refactoring:
 
 {{< playground
 embeded_link="https://pl.kotl.in/NC8pCD5it?from=1&to=22&readOnly=false&theme=darcula"
@@ -246,7 +246,7 @@ Now you know this, let's keep going on with our refactoring.
 
 
 ## Invoking the function parameter
-If you run the program where we have left, you will get this result :
+If you run the program where we have left, you will get this result:
 `Function0<java.lang.Float>` instead of printing the result of the
 multiplication (in our case `20.0`).
 
@@ -256,7 +256,7 @@ function* by using directly the name of the parameter in
 invoking (running) the function.
 
 To fix this, you just need to modify the *String Template* from this
-representation of the function :
+representation of the function:
 
 ```kotlin
     println("The result is : $operationAsParam")
@@ -274,9 +274,9 @@ returned by the function after its invocation.
 > *Feel free to go back and edit the interactive code snippet* ⬆️
 
 
-## Being Anonymous !
+## Being Anonymous
 Thanks to our last factoring, we can now delete the intermediate
-variable called `operation` to go from this :
+variable called `operation` to go from this:
 
 ```kotlin
     val operation: () -> Float = { multiplication(paramY = 4f, paramX = 5f) }
@@ -310,7 +310,7 @@ Function*** !
 In Kotlin, when we have a *higher-order function* (in our case
 `prettyPrinter`) which has only one parameter passed as an anonymous
 function expression (like in our case `{ multiplication(paramY = 4f,
-paramX = 5f) }`) we can delete the parenthesis and write this :
+paramX = 5f) }`) we can delete the parenthesis and write this:
 
 ```kotlin
     prettyPrinter { multiplication(paramY = 4f, paramX = 5f) } 
@@ -334,7 +334,7 @@ We will add a small thing to our code to make it more Compose-alike.
 
 Actually, the function `prettyPrinter` prints a fixed message with the
 result which is not really flexible. To avoid this, we will pass it as a
-parameter like this :
+parameter like this:
 
 ```kotlin
     fun prettyPrinter(message: String, operationAsParam: () -> Float) {
@@ -343,7 +343,7 @@ parameter like this :
 ```
 
 By doing this, we need to pass its value when calling the function like
-this :
+this:
 
 {{< playground
 embeded_link="https://pl.kotl.in/c7AIb5Ivp?from=1&to=11&readOnly=false&theme=darcula"
@@ -365,7 +365,7 @@ This convention is called
 
 
 
-## The one last thing to do !
+## The one last thing to do
 
 - Just capitalize the names of the two functions to get
   `PrettyPrinter(...` and `Multiplication(...`
@@ -380,7 +380,7 @@ You can check the final code bellow and test the result
 embeded_link="https://pl.kotl.in/GYRF1nqsp?from=1&to=21&readOnly=false&theme=darcula"
 embeded_height="470" />}}
 
-By doing these two actions you are ensuring that :
+By doing these two actions you are ensuring that:
 
 - You respect the convention used in *Jetpack Compose* where functions annotated with `@Composable` have capitalized names.
 - You make required and optional function parameters very clear.
@@ -404,7 +404,7 @@ I hope that this article helped you mind the gap that you might
 encounter when reading *Jetpack Compose*' code for the first time.
 If you feel that you have grasped the syntax, I encourage you to try to understand what *Compose* does behind the scenes (some of that is well explained by *Leland Richardson* in this [*talk*](https://www.youtube.com/watch?v=6BRlI5zfCCk))
 
-Thank you for taking the time to read this article : )
+Thank you for taking the time to read this article :)
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
 > *using Github issues to avoid cross-site trackers.*
