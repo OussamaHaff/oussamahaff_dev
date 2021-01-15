@@ -1,0 +1,14 @@
+{{ if .IsNamedParams }}
+    <html>
+        <div class="juxtapose">
+            <img src="{{.Get "src_1" }}" {{ if (isset .Params "label_1") }} data-label="{{.Get "label_1" }}" {{ end }} />
+            <img src="{{.Get "src_2" }}" {{ if (isset .Params "label_2") }} data-label="{{.Get "label_2" }}" {{ end }} />
+        </div>
+        <p>
+            <!-- empty line -->
+        </p>
+        <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+    </html>
+{{ end }}
+{{.Inner}}

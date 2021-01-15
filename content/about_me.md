@@ -1,5 +1,5 @@
 +++  
-date = "2020-12-16"  
+date = "2021-01-14"
 +++
 
 # Oussama Hafferssas
@@ -23,7 +23,7 @@ style="border-radius: 8px;" >}}
 This is my [*T-shape*](https://en.wikipedia.org/wiki/T-shaped_skills) Tech profile for a better view, with hints about
 `upcoming` articles 😉
 
-{{< image src="/img/about/t-shape-tech-profile.svg" position="center"
+{{< image src="/img/about/t-shape-tech-profile-14-01-2021-compressed.svg" position="center"
 style="border-radius: 8px;" >}}
 
 - All what you need to know about this blog is well explained in
