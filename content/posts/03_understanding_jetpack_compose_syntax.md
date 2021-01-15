@@ -1,8 +1,8 @@
 +++ title = "Helping You Understand The Syntax of Jetpack Compose"  
-date = "2021-01-02"  
+date = "2021-01-15"
 author = "Oussama Hafferssas"  
 cover ="/img/03_understanding_jetpack_compose_syntax/cover_compose_syntax_compressed.svg"  
-description = "In this article, I will clarify the syntax of *Jetpack Compose* for you by using pure Kotlin, interactive code snippets that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."
+description = "In this article, I will clarify the syntax of *Jetpack Compose* by using pure Kotlin, interactive code snippets that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."
 +++
 
 
@@ -72,7 +72,7 @@ we can write something like this in Kotlin:
 
 {{< playground embeded_link="https://pl.kotl.in/Jo5cBRoEk?from=1&to=25&readOnly=false&theme=darcula" embeded_height="520"/>}}
 
-> *This Kotlin code can get more compact, but we will keep it as explicit as it could be for the sake of clarity.*
+> *This Kotlin code can get more compact, but we will keep it as explicit as it can be for the sake of clarity.*
 
 The three lines of code in the `main()` function represent the usual
 three basic steps that we generally use in Object-Oriented Programming
@@ -195,9 +195,9 @@ You can read it as follows:
 
 - On the left side : the variable `operation` is of type `() -> Float`
   which means that it's of type ***function that does something and
-  return a Float***.
+  returns a Float***.
 
-- On the right side : we describe ***what this function actually does***
+- On the right side : we describe ***what this function actually does***,
   which is represented by what's inside the curly braces `{ }`. In our
   case, it does multiplication and returns the result as a `Float`.
 
@@ -215,7 +215,7 @@ fun prettyPrinter(result: Float) {
 }
 ```
 In order to pass the new representation of our `multiplication` function
-as parameter, we need to refactor it function like this:
+as parameter, we need to refactor the parameter of `prettyPrinter` to look like this:
 
 ```kotlin
 fun prettyPrinter(operationAsParam: () -> Float) {
@@ -255,21 +255,20 @@ function* by using directly the name of the parameter in
 `$operationAsParam` instead of printing the value returned after
 invoking (running) the function.
 
-To fix this, you just need to modify the *String Template* from this
-representation of the function:
+To fix this, you just need to modify the *String Template* from `$operationAsParam`:
 
 ```kotlin
     println("The result is : $operationAsParam")
 ```
 
-to an invocation by adding `()` after the name of the parameter :
+to an invocation by adding parenthesis `()` after the name of the parameter :
 
 ```kotlin
     println("The result is : ${operationAsParam()}")
 ```
 
 This will actually replace the function parameter name with the value
-returned by the function after its invocation.
+returned by the invocation of the function that the parameter represents.
 
 > *Feel free to go back and edit the interactive code snippet* ⬆️
 
@@ -323,7 +322,7 @@ paramX = 5f) }`) we can delete the parenthesis and write this:
 > *Feel free to edit the interactive code to test it by yourself* ⬆️
 
 By doing this, we can say that we have achieved a syntax that actually
-looks the syntax of Jetpack Compose just by combining functions.
+looks like the syntax of *Jetpack Compose* just by combining functions.
 
 In programming this is called
 [***function composition***](https://en.wikipedia.org/wiki/Function_composition_(computer_science)).
@@ -332,8 +331,8 @@ In programming this is called
 ## Trailing Lambda
 We will add a small thing to our code to make it more Compose-alike.
 
-Actually, the function `prettyPrinter` prints a fixed message with the
-result which is not really flexible. To avoid this, we will pass it as a
+Actually, the function `prettyPrinter` prints the concatenation of a hard coded message with the
+result, which is not really flexible. To avoid this, we will pass it as a
 parameter like this:
 
 ```kotlin
@@ -357,8 +356,8 @@ parameters* ?
 The answer is that it's a convention in Kotlin. It's true that
 `prettyPrinter` has two parameters, but the last one (named
 `operationAsParam`) is a function. Therefore, when calling the
-`prettyPrinter` function, we can write the expression of the parameter
-function parameter outside the parenthesis.
+`prettyPrinter` function, we can write the function expression
+passed as parameter outside the parenthesis.
 
 This convention is called
 [***Trailing Lambda***](https://kotlinlang.org/docs/reference/lambdas.html#passing-a-lambda-to-the-last-parameter).
