@@ -5,6 +5,7 @@ cover ="/img/03_understanding_jetpack_compose_syntax/cover_compose_syntax_compre
 description = "In this article, I will clarify the syntax of *Jetpack Compose* by using pure Kotlin, interactive code snippets that you can run and modify, and what you already know about Object-Oriented Programming. I will also explain some of the frequently used fancy words when using *Compose*."
 +++
 
+[![KotlinWeekly](https://img.shields.io/badge/Featured%20in%20Kotlin%20Weekly-%23233-blue.svg?style=flat)](https://mailchi.mp/kotlinweekly/kotlin-weekly-233)
 
 >*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
 
