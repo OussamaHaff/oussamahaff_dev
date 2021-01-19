@@ -7,6 +7,8 @@ description = "In this article, I will clarify the syntax of *Jetpack Compose* b
 
 [![KotlinWeekly](https://img.shields.io/badge/Featured%20in%20Kotlin%20Weekly-%23233-blue.svg?style=flat)](https://mailchi.mp/kotlinweekly/kotlin-weekly-233)
 
+[![jetcdev](https://img.shields.io/badge/Featured%20in%20jetc.dev%20-%2348-blue.svg?style=flat)](https://www.getrevue.co/profile/jetc/issues/jetc-dev-newsletter-issue-48-307408)
+
 >*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
 
 
