@@ -3,7 +3,8 @@ title = "Hunting a bug — A True App Bundle Debugging Story"
 date = "2019-07-27"  
 author = "Oussama Hafferssas"  
 cover = "img/02_android_app_bundle_debug_story/cover.webp"  
-description = "In this article I will focus on the problem-solving mindset behind resolving a mysterious bug that we have faced when trying to publish our Android App using the new format App Bundle instead of APK for the first time"  
+description = "In this article I will focus on the problem-solving mindset behind resolving a mysterious bug that we have faced when trying to publish our Android App using the new format App Bundle instead of APK for the first time"
+tags = ["Debug", "Dependencies", "Android", "Dev"]
 +++
 
 [![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Jul%2027,%202019-blue.svg?style=flat)](https://proandroiddev.com/hunting-a-bug-a-true-app-bundle-debugging-story-b8898767f8e3)
