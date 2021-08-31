@@ -4,7 +4,7 @@ date = "2021-01-14"
 
 # Oussama Hafferssas
 
-{{< image src="/img/about/profile_cover.webp" position="center"  
+{{< image src="/img/about/profile_cover_white_bg.webp" position="center"
 style="border-radius: 8px;" >}}
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/OussamaHaff?label=%40OussamaHaff&logoColor=black&style=social)](https://twitter.com/OussamaHaff)
