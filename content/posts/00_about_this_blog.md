@@ -38,6 +38,7 @@ This blog simply :
 - has `no SEO scripts`
 - does `not use cookies`
 - does `not collect` / does `not store` / does `not share` any user data
+- uses [*GoutCounter*](https://github.com/arp242/goatcounter) an open source, privacy-friendly visit counter. 
 
 It's a static site, generated from markdown files. You can read about
 how it's made further in this article.
