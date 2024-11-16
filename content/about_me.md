@@ -1,11 +1,9 @@
-+++  
-date = "2021-01-14"
-+++
+---
+date: "2021-01-14"
+---
 
 # Oussama Hafferssas
 
-{{< image src="/img/about/profile_cover_white_bg.webp" position="center"
-style="border-radius: 8px;" >}}
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/OussamaHaff?label=%40OussamaHaff&logoColor=black&style=social)](https://twitter.com/OussamaHaff)
 
@@ -23,8 +21,6 @@ style="border-radius: 8px;" >}}
 This is my [*T-shape*](https://en.wikipedia.org/wiki/T-shaped_skills) Tech profile for a better view, with hints about
 `upcoming` articles 😉
 
-{{< image src="/img/about/t-shape-tech-profile-14-01-2021-compressed.svg" position="center"
-style="border-radius: 8px;" >}}
 
 - All what you need to know about this blog is well explained in
   [***dedicated article***](https://oussamahaff.dev/posts/00_about_this_blog/)

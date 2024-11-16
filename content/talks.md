@@ -1,7 +1,7 @@
 ---
-title: "Talks"
+author: Lorem Ipsum
 date: "2019-01-18"
-author: "Lorem Ipsum"
+title: Talks
 ---
 
 ## Header 2

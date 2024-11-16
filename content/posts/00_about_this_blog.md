@@ -1,9 +1,11 @@
-+++ title = "About this blog"  
-date = "2020-12-26"  
-author = "Oussama Hafferssas"  
-cover ="/img/00_the_blog_s_readme/cover_site_readme.svg"  
-description = "If it's the first time you visit my blog, welcome ! You may find this 5 minutes read interesting to have a clear view on the blog."  
-+++
+---
+author: Oussama Hafferssas
+cover: /img/00_the_blog_s_readme/cover_site_readme.svg
+date: "2020-12-26"
+description: If it's the first time you visit my blog, welcome ! You may find this
+  5 minutes read interesting to have a clear view on the blog.
+title: About this blog
+---
 
 
 >*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) of this post can be found in the blog's Github repository.*
@@ -95,11 +97,7 @@ If you want to try the website locally, you need to :
 - In most cases, *Hugo* will indicate that the site is available locally
   on your machine at `localhost:1313`
 
-
-{{< image
-src="/img/00_the_blog_s_readme/end_of_produce_readme.svg"
-position="left"  
-style="border-radius: 8px;" >}}
+  
 
 
 > [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*

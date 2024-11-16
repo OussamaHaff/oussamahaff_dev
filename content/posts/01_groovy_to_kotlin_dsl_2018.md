@@ -1,11 +1,16 @@
-+++
-title = "Migrating Android build scripts from Groovy to Kotlin DSL"
-date = "2018-12-08"  
-author = "Oussama Hafferssas"
-cover = "img/kotlin_groovy_dsl/kotlin_dsl.webp"
-description = "In this article I’ll be sharing with you the process I’ve followed to migrate Gradle build scripts from Groovy to Kotlin DSL in one of my Android side projects, and also my personal opinion on this process."
-tags = ["Kotlin", "Gradle", "Dev"]
-+++
+---
+author: Oussama Hafferssas
+cover: img/kotlin_groovy_dsl/kotlin_dsl.webp
+date: "2018-12-08"
+description: In this article I’ll be sharing with you the process I’ve followed to
+  migrate Gradle build scripts from Groovy to Kotlin DSL in one of my Android side
+  projects, and also my personal opinion on this process.
+tags:
+- Kotlin
+- Gradle
+- Dev
+title: Migrating Android build scripts from Groovy to Kotlin DSL
+---
 
 [![AndroidWeekly](https://img.shields.io/badge/Android%20Weekly-%23339-blue.svg?style=flat)](https://androidweekly.net/issues/issue-339)
 
