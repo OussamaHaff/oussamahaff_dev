@@ -1,4 +1,4 @@
 [submodule "themes/hello-friend"]
 	path = themes/hello-friend
 	url = https://github.com/OussamaHaff/hugo-theme-hello-friend
-	branch = feat/add_vercel_analytics
+	branch = feat/add_goat_counter
