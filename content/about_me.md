@@ -1,34 +1,26 @@
 +++  
-date = "2021-01-14"
+date = "2024-11-16"
 +++
 
 # Oussama Hafferssas
 
-{{< image src="/img/about/profile_cover_white_bg.webp" position="center"
-style="border-radius: 8px;" >}}
+{{< image src="/img/about/profile.jpeg" position="start"
+style="border-radius: 8px; display: block; width: 57%;" >}}
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/OussamaHaff?label=%40OussamaHaff&logoColor=black&style=social)](https://twitter.com/OussamaHaff)
+## In few words
 
-## About me
-
-- Android Engineer (Certified for
-  [Kotlin](https://www.credential.net/d889722c-1b2a-45cf-87b7-03361799973f)
-  &
-  [Java](https://www.credential.net/28ce7f3c-6252-4fc9-b1eb-16bc80ce38f9))
-- Passionate about the `Craftsmanship` of software and mobile apps 
-- Having a background on image processing algorithms
-- Work mainly on `FinTech` mobile apps
-- Love all means of sharing knowledge `except illegal ones !`
-
-This is my [*T-shape*](https://en.wikipedia.org/wiki/T-shaped_skills) Tech profile for a better view, with hints about
-`upcoming` articles 😉
-
-{{< image src="/img/about/t-shape-tech-profile-14-01-2021-compressed.svg" position="center"
-style="border-radius: 8px;" >}}
-
-- All what you need to know about this blog is well explained in
-  [***dedicated article***](https://oussamahaff.dev/posts/00_about_this_blog/)
+- Staff Software Engineer based in London.
+- Currently working on developer productivity and mobile apps architecture at scale.
+- Worked on large scale mobile apps.
+- Have a background on image processing and computer vision algorithms.
+- Love all means of sharing knowledge, _except illegal ones_!
 
 
-> *Ethics-Driven Development is the best type of development !*
+## Find me on
 
+- [@Linkedin](https://www.linkedin.com/in/oussamahaff/)
+- [@Mastodon](https://androiddev.social/@OussamaHaff)
+- [@X](https://x.com/OussamaHaff)
+
+
+> *Ethics-Driven Development is the best type of development!*
