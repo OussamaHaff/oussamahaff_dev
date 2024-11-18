@@ -27,8 +27,8 @@ Most software engineers are expected to have at least a basic understanding of R
 including HTTP methods like `PUT`, `POST`, `GET`, structured URLs, and clear data formats for requests and responses 
 to establish communication between two pieces of software.
 
-In my opinion, the same principles apply between two pieces of software, one of which is an LLM. 
-This includes spawning an LLM locally or on a cloud service, programmatically communicating with it, 
+In my opinion, the same principles apply between two pieces of software, one of which is a LLM. 
+This includes spawning a LLM locally or on a cloud service, programmatically communicating with it, 
 and prompting it using _[LangChain](https://github.com/langchain-ai/langchain)_ (or equivalent), 
 to performing basic RAG (Retrieval Augmented Generation) tasks, up to fine-tuning. 
 IMO these operations will become fundamental building blocks for the next generation of software.
