@@ -15,9 +15,9 @@ engineer were swinging constantly for the past year, which is the case for many 
 In many cases, the fear of something new is fueled or augmented by ignorance, so I decided mid-year 2024 to step out of 
 my comfort zone being a Staff Engineer in a platform team focusing on Android -_[Avoid the frontend bias](https://leaddev.com/technical-direction/uncover-the-invisible-ceiling)_- 
 to invest in learning the new ecosystem of GenAI, benefiting from my academic background in CS 
-where I have used both [Discriminative and Generative AI approaches](https://www.datacamp.com/blog/generative-vs-discriminative-models) 
+where I have used both [Discriminative and Generative Models](https://www.datacamp.com/blog/generative-vs-discriminative-models) 
 in computer vision (implementing those algorithms by hand using Java!) 
-to build a hackathon project to have a code review assistant using LLMs, GraphRAG and LangChain,
+to build a hackathon project to have a code review assistant using LLMs, Graph RAG and LangChain,
 and also on a personal level fine-tuning and even to building my own LLM!
 
 Based on this high speed upskilling train 🚅, on observations I made from our industry and also based on my personal 
