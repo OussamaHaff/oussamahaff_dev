@@ -13,7 +13,7 @@ Between excitement and fear, my feelings about the heavy adoption of GenAI tooli
 engineer were swinging constantly for the past year, which is the case of many of my friends and colleagues.
 
 In many cases, the fear of something new is fueled or augmented by ignorance, so I decided mid-year 2024 to step out of 
-my comfort zone (being a Staff Engineering in a platform team focusing on Android - [avoid the frontend bias](https://leaddev.com/technical-direction/uncover-the-invisible-ceiling)) 
+my comfort zone being a Staff Engineering in a platform team focusing on Android -_[Avoid the frontend bias](https://leaddev.com/technical-direction/uncover-the-invisible-ceiling)_- 
 to invest in learning the new ecosystem of GenAI, benefiting from my academic background in CS 
 (Using both [Discriminative and Generative AI approaches](https://www.datacamp.com/blog/generative-vs-discriminative-models) in computer vision) 
 to build a hackathon project for a code review assistant using LLMs, GraphRAG and LangChain,
