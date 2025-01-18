@@ -7,6 +7,14 @@ description = "Observations, analogy and conclusion about the evolution of softw
 tags = ["Opinion", "AI", "Software Engineering"]
 +++
 
+
+[TOC levels=1-3]: #
+
+# Table of Contents
+- [Long Intro](#long-intro)
+- [Observations on IC Tasks](#observations-on-ic-tasks)
+
+
 # Long Intro
 
 Between excitement and fear, my feelings about the heavy adoption of GenAI tooling in our field as a hands-on software 
