@@ -138,7 +138,7 @@ invest in the exercise of evaluation the output of their engineers bases on intu
 a flattened structure with fewer titles. Probably as simple as 2 levels, **_Software Engineer_** and
 **_Lead Software Engineer_**.
 
-- Different adoption speeds - IMO, the adoption of this evolved software engineer practice in the industry will depend 
+- **Different adoption speeds** - IMO, the adoption of this evolved software engineer practice in the industry will depend 
 on which **tier** (A compensation-focused classification published by
 _Gergely Oroscz_ [here](https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation)) 
 a company is situated in:
@@ -146,7 +146,7 @@ a company is situated in:
 
   - Tier 3 companies would be the fastest to adopt and build their own ML tooling for ICs. 
   - Tier 1 companies could be the second and adopt more 0-code ML tools built by startups. 
-  - Tiers 2 companies could be the slowest to embrace this change.
+  - Tier 2 companies could be the slowest to embrace this change.
 
 
 ## Human Brains Are Here to Stay
