@@ -133,3 +133,38 @@ even harder to draw a line between current IC levels junior/mid/senior/staff/pri
 invest in the exercise of evaluation the output of their engineers bases on intuition, IMO companies will just move to
 a flattened structure with fewer titles. Probably as simple as 2 levels, **_Software Engineer_** and
 **_Lead Software Engineer_**.
+
+- Different adoption speeds - IMO, the adoption of this evolved software engineer practice in the industry will depend 
+on which **tier** (A compensation-focused classification published by
+_Gergely Oroscz_ [here](https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation)) 
+a company is situated in:
+
+
+  - Tier 3 companies would be the fastest to adopt and build their own ML tooling for ICs. 
+  - Tier 1 companies could be the second and adopt more 0-code ML tools built by startups. 
+  - Tiers 2 companies could be the slowest to embrace this change.
+
+
+## Human Brains are Here to Stay
+
+With all of this, one could be easily pushed to say that Software Engineers will be replaced, which is something 
+I don't see coming yet based on our farmer analogy. 
+
+Modern farmers were not 100% replaced after the industrial revolution, but their roles have evolved to be more efficient.
+A side effect of that is that we have fewer farmers nowadays. I expect the same to happen for software engineers.
+
+Software engineers who stay are the ones who manage to evolve, they wil find themselves writing lots of prompts,
+reviewing tons of ML tools generated code, doing more holistic and complex system design and orchestrating the work
+of AI agents.
+
+Those new tasks depend on the understanding of outside world by reasoning and adapting to it. Which is what the human 
+brain will always outpace what any ML tool/algorithm can do.
+
+
+# Epilogue
+
+In this blogpost, I didn't judge if modern farming is good, neither the evolved state of software engineering.
+I didn't explore deeper drivers leading humanity to be constantly pushed to be more productive or more efficient
+for profit maximisation and give opinion on them. 
+
+Instead, I intended to make it a neutral cause-and-effect analysis. Thank you for taking the time and neurons to read it!
