@@ -108,7 +108,7 @@ caption="Timeline of the potential evolution of Software Engineering"
 captionPosition="center" >}}
                                      
 I think that we are in the middle of a major and a blazing fast evolution (AKA a revolution) in the software industry
-which we will see the following:
+after-which we will see the following:
 
 - **Larger codebases to handle** - Just as a single farmer with modern equipment can now manage much larger farms than 
 their ancestors could, software engineers using LLMs can potentially handle larger codebases and complete tasks more quickly.
