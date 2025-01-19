@@ -4,7 +4,7 @@ date = "2025-01-19"
 author = "Oussama Hafferssas"
 cover = "img/05_ai_tooling_for_swe/ai-tooling-in-swe.webp"
 description = "Observations, analogy and conclusion about the evolution of software engineering industry in the Era of AI tooling."
-tags = ["Opinion", "AI", "Software Engineering"]
+tags = ["Opinion", "AI", "Machine Learning","Software Engineering"]
 +++
 
 
