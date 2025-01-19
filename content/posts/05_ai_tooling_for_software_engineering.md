@@ -88,3 +88,48 @@ To explore more the aspects of this analogy, lets lay them down in 2 tables:
 | New knowledge required |               Machine operation, maintenance, modern farming techniques                |                            Prompt writing, LLM capabilities and evaluation, output verification                             |
 |      Core Skills       | Understanding of soil, crops, seasons is needed to select the best machines, products. | Understanding of domain and software engineering practices is needed to select the best AI tooling and derivative products. |
 |   Productivity Gain    |               One farmer can produce food for hundreds instead of dozens               |                                  One IC can handle projects that previously required teams                                  |
+
+
+# Conclusion
+
+## The Next Evolution
+
+{{< figure
+src="/img/05_ai_tooling_for_swe/new-sofware-enngineering-timeline.webp"
+position="center"
+width=2080
+height=1080
+style="border-radius: 8px;" 
+caption="Timeline of the potential evolution of Software Engineering"
+captionPosition="center" >}}
+                                     
+I think that we are in the middle of a major and a blazing fast evolution (AKA a revolution) in the software industry
+which we will see the following:
+
+- **Larger codebases to handle** - Just as a single farmer with modern equipment can now manage much larger farms than 
+their ancestors could, software engineers using LLMs can potentially handle larger codebases and complete tasks more quickly.
+
+- **Dependency and loss of core knowledge** - In farming, many modern farmers have become overly dependent on technology 
+and in many cases lost traditional farming knowledge. When systems fail, this knowledge gap becomes critical. 
+Engineers might become too dependent on LLMs for problem-solving, losing the ability to think through problems 
+independently or understand fundamental principles. 
+
+- **Rocket speed onboarding** - Learnings new tech stacks, making PoCs to explore new concepts is just way easier 
+for ICs now (and also for people from outside the field) removing a big blocker in T-shaping or even pushing 
+ICs to [comb-shaping](https://certibanks.com/KnowledgeArea.aspx?articleid=11).
+
+- **Raise of the generalists** - Farmers where expected to know how to harvest some species of plants and specialise based
+on their local weather, land and seeds availability, but now they are expected to be able to switch between plants
+using standard seeds and tooling and also handle bigger lands. The same applies on software engineers as a result of 
+the rocket speed onboarding with new tech stacks, software engineers will be expected not the stay in their speciality
+and to be more of generalist.
+
+- **Project teams will be squeezed** - As a result of raise the of the potential 
+productivity gain when these tools get better, 1 or 2 engineers will be able to do a team job which will impact 
+the overall size of teams across industry.
+
+- **Titles will be flattened** - As a result of having less engineers in teams and the fact that it will be
+even harder to draw a line between current IC levels junior/mid/senior/staff/principals, unless companies are willing to 
+invest in the exercise of evaluation the output of their engineers bases on intuition, IMO companies will just move to
+a flattened structure with fewer titles. Probably as simple as 2 levels, **_Software Engineer_** and
+**_Lead Software Engineer_**.
