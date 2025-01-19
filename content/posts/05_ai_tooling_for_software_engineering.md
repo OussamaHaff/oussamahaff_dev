@@ -1,6 +1,6 @@
 +++
 title = "AI Tooling for Software Engineering - What ICs Could Learn from Farmers!"
-date = "2025-01-17"  
+date = "2025-01-19"  
 author = "Oussama Hafferssas"
 cover = "img/05_ai_tooling_for_swe/ai-tooling-in-swe.webp"
 description = "Observations, analogy and conclusion about the evolution of software engineering industry in the Era of AI tooling."
