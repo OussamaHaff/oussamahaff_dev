@@ -16,6 +16,10 @@ tags = ["Opinion", "AI", "Software Engineering"]
 - [ICs and Farmers - An Analogy](#ics-and-farmers---an-analogy)
     - [ICs VS Farmers - Before the Revolution](#ics-vs-farmers---before-the-revolution)
     - [ICs VS Farmers - After the Revolution](#ics-vs-farmers---after-the-revolution)
+- [Conclusion](#conclusion)
+  - [The Next Evolution](#the-next-evolution)
+  - [Human Brains Are Here to Stay](#human-brains-are-here-to-stay)
+- [Epilogue](#epilogue)
 
 # Long Intro
 
@@ -145,7 +149,7 @@ a company is situated in:
   - Tiers 2 companies could be the slowest to embrace this change.
 
 
-## Human Brains are Here to Stay
+## Human Brains Are Here to Stay
 
 With all of this, one could be easily pushed to say that Software Engineers will be replaced, which is something 
 I don't see coming yet based on our farmer analogy. 
