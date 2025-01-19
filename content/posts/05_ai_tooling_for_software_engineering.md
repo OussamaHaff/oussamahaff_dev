@@ -172,3 +172,7 @@ I didn't explore deeper drivers leading humanity to be constantly pushed to be m
 for profit maximisation and give opinion on them. 
 
 Instead, I intended to make it a neutral cause-and-effect analysis. Thank you for taking the time and neurons to read it!
+
+
+> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
+> *using Github issues to avoid cross-site trackers.*

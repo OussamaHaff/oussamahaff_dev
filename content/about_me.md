@@ -20,6 +20,7 @@ style="border-radius: 8px; display: block; width: 57%;" >}}
 
 - [@Linkedin](https://www.linkedin.com/in/oussamahaff/)
 - [@Mastodon](https://androiddev.social/@OussamaHaff)
+- [@Bluesky](https://bsky.app/profile/oussamahaff.bsky.social)
 - [@X](https://x.com/OussamaHaff)
 
 
