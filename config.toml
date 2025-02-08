@@ -25,6 +25,10 @@ showReadingTime = false
 #(default is Description or Summary metadata in the front matter)
 # rssFullText = true
 
+# https://giscus.app/
+giscusTheme="preferred_color_scheme"
+disableComments=false
+
 [languages]
 [languages.en]
 title = "Oussama Haff. Blog"
