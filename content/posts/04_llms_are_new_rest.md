@@ -40,5 +40,5 @@ However, this could change rapidly in the foreseeable future.
 
 It’s easier than you think to start. Give it a try!
 
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
-> *using Github issues to avoid cross-site trackers.*
+>*[Edit history](https://github.com/OussamaHaff/oussamahaff_dev/commits/master/content/posts/04_llms_are_new_rest.md) of this post can be found in the blog's Github repository.*
+

@@ -12,9 +12,6 @@ tags = ["Compose", "Kotlin", "Dev"]
 
 [![AndroidWeekly](https://img.shields.io/badge/Featured%20in%20Android%20Weekly-%23450-blue.svg?style=flat)](https://androidweekly.net/issues/issue-450)
 
->*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
-
-
 
 I believe that if you are reading this article, you already know that
 *Jetpack Compose* is a new *Kotlin* framework for building
@@ -411,8 +408,7 @@ If you feel that you have grasped the syntax, I encourage you to try to understa
 
 Thank you for taking the time to read this article :)
 
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
-> *using Github issues to avoid cross-site trackers.*
+>*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/03_understanding_jetpack_compose_syntax.md) of this post can be found in the blog's Github repository.*
 
 > Privacy Notice : This article has one tracker integrated in the
 > *iframes* provided by

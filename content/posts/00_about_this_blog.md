@@ -6,11 +6,6 @@ description = "If it's the first time you visit my blog, welcome ! You may find 
 +++
 
 
->*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) of this post can be found in the blog's Github repository.*
-
-
->[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
-
 [TOC levels=1-3]: #
 
 # Table of Contents
@@ -102,4 +97,4 @@ position="left"
 style="border-radius: 8px;" >}}
 
 
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
+>*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/00_the_blog_s_readme.md) of this post can be found in the blog's Github repository.*
