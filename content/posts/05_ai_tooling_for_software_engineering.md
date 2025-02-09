@@ -173,6 +173,4 @@ for profit maximisation and give opinion on them.
 
 Instead, I intended to make it a neutral cause-and-effect analysis. Thank you for taking the time and neurons to read it!
 
-
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose)
-> *using Github issues to avoid cross-site trackers.*
+>*[Edit history](https://github.com/OussamaHaff/oussamahaff_dev/commits/master/content/posts/05_ai_tooling_for_software_engineering.md) of this post can be found in the blog's Github repository.*

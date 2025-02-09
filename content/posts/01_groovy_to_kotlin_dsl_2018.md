@@ -11,11 +11,6 @@ tags = ["Kotlin", "Gradle", "Dev"]
 
 [![ProAndroidDev](https://img.shields.io/badge/ProAndroidDev.com-Dec%2008,%202018-blue.svg?style=flat)](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737)
 
->*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/01_groovy_to_kotlin_dsl_2018.md) of this post can be found in the blog's Github repository.*
-
->[*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
-
-
 [TOC levels=1-3]: #
 
 # Table of Contents
@@ -405,4 +400,4 @@ build smoother, safer and healthier 🙏
 [ProAndroidDev](https://proandroiddev.com/migrating-android-build-scripts-from-groovy-to-kotlin-dsl-f8db79dd6737).
 Thanks to Simon Percic for th review.*
 
-> [*Comment*](https://github.com/hfrsoussama/oussamahaff_dev/issues/new/choose) *using Github issues to avoid cross-site trackers.*
+>*[Edit history](https://github.com/hfrsoussama/oussamahaff_dev/commits/master/content/posts/01_groovy_to_kotlin_dsl_2018.md) of this post can be found in the blog's Github repository.*
